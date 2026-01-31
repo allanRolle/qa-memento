@@ -178,6 +178,22 @@ Questions et réponses pour entretien
     <p>Je combine qualité fonctionnelle, automatisation et vision produit, avec une forte capacité d’adaptation et un esprit d’amélioration continue. Je suis un profil polyvalent, je veux monter en compétences en DevOps et l'IA.</p>
 </details>
 
+<details>
+    <summary>Qu'est-ce qu'une stratégie de test?</summary>
+    <p>Une stratégie de test, ce n’est pas une liste de cas de test. C’est un cadre de décision. Pour être efficace, elle repose sur 5 piliers clés :</p>
+    <span>1. Les objectifs</span>
+    <p>Pourquoi teste-t-on ? Réduire le risque ? Sécuriser un flux critique ?</p>
+    <span>2. Les risques</span>
+    <p>On ne teste pas tout. On teste ce qui compte vraiment.</p>
+    <span>3. Les niveaux et types de tests</span>
+    <p>Un équilibre clair entre unitaires, intégration, E2E, exploratoire, auto</p>
+    <span>4. L'organisation et les rôles</span>
+    <p>Qui teste quoi, quand, et avec quelle responsabilité ?</p>
+    <span>5. Le pilotage par la valeur</span>
+    <p>Des indicateurs utiles, pas des vanity metrics.</p>
+    <p>Une bonne stratégie de test ne vise pas la couverture maximale, mais la maîtrise du risque.</p>
+</details>
+
 ## 📈Agile
 
 <details>
