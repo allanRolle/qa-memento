@@ -364,6 +364,16 @@ Questions et réponses pour entretien
     </ul>
 </details>
 
+<details>
+    <summary>Architecture Appium ?</summary>
+    <ul>
+        <li>1.  **Client --> Serveur Appium:** Requête HTTP (JSON)</li>
+        <li>2.  **Serveur Appium --> Appareil/Simulateur:** Commandes natives</li>
+        <li>3.  **Appareil/Simulateur --> Serveur Appium:** Réponse (JSON)</li>
+        <li>4.  **Serveur Appium --> Client:** Réponse (JSON)</li>
+    </ul>
+</details>
+
 ### 🔸CI / CD
 
 <details>
@@ -436,16 +446,6 @@ Questions et réponses pour entretien
 <details>
     <summary>Outils API ?</summary>
     <p>Postman, Swagger</p>
-</details>
-
-<details>
-    <summary>Architecture Appium ?</summary>
-    <ul>
-        <li>1.  **Client --> Serveur Appium:** Requête HTTP (JSON)</li>
-        <li>2.  **Serveur Appium --> Appareil/Simulateur:** Commandes natives</li>
-        <li>3.  **Appareil/Simulateur --> Serveur Appium:** Réponse (JSON)</li>
-        <li>4.  **Serveur Appium --> Client:** Réponse (JSON)</li>
-    </ul>
 </details>
 
 ## 📒Autres
