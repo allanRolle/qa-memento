@@ -179,6 +179,35 @@ Questions et réponses pour entretien
 </details>
 
 <details>
+    <summary>Qu'est-ce que la couverture de test ?</summary>
+    <p>La couverture de tests (test coverage) en ISTQB est une mesure qui indique le degré auquel les éléments de test ont été exercés par une suite de tests.</p>
+    <h3>Définition clé:</h3>
+    <p>C'est le pourcentage d'éléments testés par rapport au nombre total d'éléments à tester. Elle permet d'évaluer la complétude des tests.</p>
+    <h3>Principaux types de couverture:</h3>
+    <p>Couverture structurelle (boîte blanche) :<p>
+    <ul>
+        <li>Couverture des instructions : % de lignes de code exécutées</li>
+        <li>Couverture des branches : % de branches conditionnelles testées</li>
+        <li>Couverture des chemins : % de chemins d'exécution testés</li>
+    </ul>
+       <p>Couverture fonctionnelle (boîte noire) :<p>
+    <ul>
+        <li>Couverture des exigences : % d'exigences testées</li>
+        <li>Couverture des cas d'utilisation : % de scénarios utilisateurs testés</li>
+        <li>Couverture des partitions d'équivalence : % de classes testées</li>
+    </ul>
+    <p>Formule de base : Couverture = (Éléments testés / Éléments totaux) × 100%</p>
+    <p>Importance:</p>
+    <ul>
+        <li>Identifie les zones non testées</li>
+        <li>Aide à décider quand arrêter les tests</li>
+        <li>Critère de qualité et de sortie (exit criteria)</li>
+    </ul>
+    <p>Attention : Une couverture de 100% ne garantit pas l'absence de défauts !</p>
+
+</details>
+
+<details>
     <summary>Qu'est-ce qu'une stratégie de test?</summary>
     <p>Une stratégie de test, ce n’est pas une liste de cas de test. C’est un cadre de décision. Pour être efficace, elle repose sur 5 piliers clés :</p>
     <span>1. Les objectifs</span>
