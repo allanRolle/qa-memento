@@ -3,7 +3,7 @@
 Questions et réponses pour entretien
 
 <!-- <details>
-    <summary>Hello</summary>
+    <summary>Hello</summary><br/>
     <p>World !</p>
 </details> -->
 
@@ -18,12 +18,12 @@ Questions et réponses pour entretien
 ## 🫂Soft skills
 
 <details>
-    <summary>Quelles sont les qualités d'un bon testeur ?</summary>
+    <summary>Quelles sont les qualités d'un bon testeur ?</summary><br/>
     <p>Devenir un bon testeur logiciel repose sur une combinaison de rigueur, curiosité technique et excellentes compétences en communication. Le rôle va bien au-delà de l’exécution de tests : il s’agit d’être un garant de la qualité en détectant les anomalies, en comprenant les attentes utilisateurs et en collaborant étroitement avec les développeurs. Une bonne formation, une veille technologique constante et l’acquisition de certifications reconnues comme l’ISTQB sont des leviers clés pour exceller dans ce métier en pleine expansion.</p>
 </details>
 
 <details>
-    <summary>Conseils et astuces pour devenir un bon testeur</summary>
+    <summary>Conseils et astuces pour devenir un bon testeur</summary><br/>
     <ul>
         <li>Comprendre le cycle de développement logiciel : Apprenez les différentes phases (conception, développement, test, déploiement) et le rôle du testeur à chaque étape.</li>
         <li>Acquérir les bases techniques : Formez-vous aux langages de programmation, aux bases de données, aux réseaux et aux protocoles web pour mieux comprendre les applications testées.</li>
@@ -41,12 +41,12 @@ Questions et réponses pour entretien
 ## 🪲Général
 
 <details>
-    <summary>Cycle de vie d'un QA ?</summary>
+    <summary>Cycle de vie d'un QA ?</summary><br/>
     <p><img src='img/qa-cycle.jpg'></p>
 </details>
 
 <details>
-    <summary>Qu'est-ce qu'une solide culture QA ?</summary>
+    <summary>Qu'est-ce qu'une solide culture QA ?</summary><br/>
     <div>
         Une solide culture QA (Quality Assurance) est un ensemble de pratiques, valeurs et mentalités qui place la qualité au cœur du processus de développement. Voici ses caractéristiques principales :
     <h2>Principes fondamentaux:</h2>
@@ -74,12 +74,12 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Qu'est-ce que le test logiciel ?</summary>
+    <summary>Qu'est-ce que le test logiciel ?</summary><br/>
     <p>Le test ogiciel consiste à vérifier que le logiciel répond aux exigences, fonctionne correctement et apporte de la valeur à l'utilisateur tout en détectant les anomalies.</p>
 </details>
 
 <details>
-    <summary>Quelle est la différence entre bug, défaut et erreur ?</summary>
+    <summary>Quelle est la différence entre bug, défaut et erreur ?</summary><br/>
     <ul>
         <li><strong>Erreur</strong>: faute humaine (développeur, PO, QA)</li>
         <li><strong>Défaut / Bug</strong>: anomalie dans le code</li>
@@ -88,7 +88,7 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Astuce pour rédiger un plan de test</summary>
+    <summary>Astuce pour rédiger un plan de test</summary><br/>
     <ul>
         <li>Quoi ?</li>
         <li>Comment ?</li>
@@ -98,7 +98,7 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Astuce pour rédiger un cas de test</summary>
+    <summary>Astuce pour rédiger un cas de test</summary><br/>
     <ul>
         <li>Étapes détaillés</li>
         <li>Données</li>
@@ -107,7 +107,7 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Combien de formats pour écrire un cas de test?</summary>
+    <summary>Combien de formats pour écrire un cas de test?</summary><br/>
     <ul>
         <li>Format classique (préconditions / actions / résultats attendus)</li>
         <li>Format Gherkin (BDD)</li>
@@ -115,7 +115,7 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Quelles sont les raisons d'adopter des techniques de test basées sur l'expérience ?</summary>
+    <summary>Quelles sont les raisons d'adopter des techniques de test basées sur l'expérience ?</summary><br/>
     <ul>
         <li>L’exploitation des connaissances et de l’intuition des testeurs expérimentés, notamment sur les points faibles historiques du système.</li>
         <li>La détection de défauts dans les zones à haut risque ou mal couvertes par d’autres techniques.</li>
@@ -125,7 +125,7 @@ Questions et réponses pour entretien
     </ul>
 </details>
 <details>
-    <summary>Qu'est-ce qu'un cachier de charges ? Un document de spécifications ? Quelle est la différence entre les deux ?</summary>
+    <summary>Qu'est-ce qu'un cachier de charges ? Un document de spécifications ? Quelle est la différence entre les deux ?</summary><br/>
     <p>Un cahier des charges est effectivement un document de spécifications. C'est un document contractuel qui définit de manière précise et détaillée les besoins, les exigences et les contraintes d'un projet. Il contient généralement :</p>
     <ul>
         <li>L'objectif du projet et le contexte</li>
@@ -145,13 +145,18 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Quelle est la différence entre un bug majeur et un bug mineur ?</summary>
+    <summary>Quelle est la différence entre un bug majeur et un bug mineur ?</summary><br/>
     <p>bug majeur => bug qui touche une fonctionnalité majeure (ex: application plante au démarrage)</p>
     <p>bug mineur => bug qui touche une fonctionnalité mineur (fautes d'orthographe)</p>
 </details>
+<details>
+    <summary>Quelle est la différence entre priorité et sévérité ?</summary><br/>
+    <p>La sévérité est l'impact technique du bug sur le système. <br/> Ex:Bloquant (crash, perte de données), majeur, mineur, cosmétique (UI)</p>
+    <p>La priorité est l'urgence de correction du bug: haute, moyenne, basse. Elle dépend du contexte métier du bug.</p>
+</details>
 
 <details>
-    <summary>Quelle est la différence entre tests fonctionnels / non fonctionnels ?</summary>
+    <summary>Quelle est la différence entre tests fonctionnels / non fonctionnels ?</summary><br/>
     <ul>
         <li><strong>Fonctionnels</strong>: vérifient ce que fait le système par rapport aux exigences</li>
         <li><strong>Non fonctionnels</strong>: performance, sécurité, compatibilité, accessibilité</li>
@@ -159,12 +164,12 @@ Questions et réponses pour entretien
 </details>
  
 <details>
-    <summary>Qu'est-ce qu'un test de régression ?</summary>
+    <summary>Qu'est-ce qu'un test de régression ?</summary><br/>
     <p>Un test de régression vérifie que les nouvelles modifications n'ont pas cassé les fonctionnalités existantes.</p>
 </details>
 
 <details>
-    <summary>KPI QA importants ?</summary>
+    <summary>KPI QA importants ?</summary><br/>
     <ul>
         <li>Taux de couverture</li>
         <li>Taux de réussite</li>
@@ -174,12 +179,12 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Pourquoi toi et pas un autre ?</summary>
+    <summary>Pourquoi toi et pas un autre ?</summary><br/>
     <p>Je combine qualité fonctionnelle, automatisation et vision produit, avec une forte capacité d’adaptation et un esprit d’amélioration continue. Je suis un profil polyvalent, je veux monter en compétences en DevOps et l'IA.</p>
 </details>
 
 <details>
-    <summary>Qu'est-ce que la couverture de test ?</summary>
+    <summary>Qu'est-ce que la couverture de test ?</summary><br/>
     <p>La couverture de tests (test coverage) en ISTQB est une mesure qui indique le degré auquel les éléments de test ont été exercés par une suite de tests.</p>
     <h3>Définition clé:</h3>
     <p>C'est le pourcentage d'éléments testés par rapport au nombre total d'éléments à tester. Elle permet d'évaluer la complétude des tests.</p>
@@ -208,7 +213,7 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Qu'est-ce qu'une stratégie de test?</summary>
+    <summary>Qu'est-ce qu'une stratégie de test?</summary><br/>
     <p>Une stratégie de test, ce n’est pas une liste de cas de test. C’est un cadre de décision. Pour être efficace, elle repose sur 5 piliers clés :</p>
     <span>1. Les objectifs</span>
     <p>Pourquoi teste-t-on ? Réduire le risque ? Sécuriser un flux critique ?</p>
@@ -226,7 +231,7 @@ Questions et réponses pour entretien
 ## 📈Agile
 
 <details>
-    <summary>Quel est le rôle du QA en Agile ?</summary>
+    <summary>Quel est le rôle du QA en Agile ?</summary><br/>
     <ul>
         <li>Participer à la rédaction des User Stories</li>
         <li>Définir les critères d'acceptation (complétes, sans ambiguïtés et testables)
@@ -236,18 +241,18 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Qu'est-ce que la Definition of Done ?</summary>
+    <summary>Qu'est-ce que la Definition of Done ?</summary><br/>
     <p>Ensemble de critères garantissant qu'une User Story est terminée, testée et livrable.</p>
 </details>
 
 <details>
-    <summary>Qu'est-ce qu'une User Story ?</summary>
+    <summary>Qu'est-ce qu'une User Story ?</summary><br/>
     <p>Description simple d'un besion utilisateur:</p>
     <p>En tant que... je veux.... afin de...</p>
 </details>
 
 <details>
-    <summary>Différence entre critère d'acceptation et Definiton of Done ?</summary>
+    <summary>Différence entre critère d'acceptation et Definiton of Done ?</summary><br/>
     <div class="ih-TJeJGAB7RWy43i3OeTw==">
 <div class="c+qhpcvP6H3VCSU9BgHRlQ=="><table class="zxqV+AyRUca+MLhV37xZ3A=="><thead class="vws+0UuF+kO6CYMvFHvtZQ=="><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><th class="Twce1OmS+ZcG-oo8+adRMg==">Caractéristique</th><th class="Twce1OmS+ZcG-oo8+adRMg==">Critère d'Acceptation</th><th class="Twce1OmS+ZcG-oo8+adRMg==">Définition de "Done" (DoD)</th></tr></thead><tbody class="o4qKFCTY3cX9YjCR2ocmKA=="><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Caractéristique"><strong>Objectif</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère d'Acceptation">Vérifier si une <em>fonctionnalité spécifique</em> répond aux besoins du client/utilisateur.</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Définition de &quot;Done&quot; (DoD)">Définir les <em>conditions générales</em> pour considérer un élément de travail (fonctionnalité, tâche, sprint) comme terminé.</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Caractéristique"><strong>Portée</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère d'Acceptation">Spécifique à une fonctionnalité ou une user story.</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Définition de &quot;Done&quot; (DoD)">Applicable à l'ensemble du projet ou du sprint.</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Caractéristique"><strong>Qui les définit ?</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère d'Acceptation">Collaboration entre l'équipe de développement, le Product Owner et les utilisateurs/clients.</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Définition de &quot;Done&quot; (DoD)">Définie par l'équipe de développement, souvent en collaboration avec les parties prenantes.</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Caractéristique"><strong>Quand sont-ils utilisés ?</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère d'Acceptation">Pendant la phase de développement et de test d'une fonctionnalité.</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Définition de &quot;Done&quot; (DoD)">Avant le début du sprint ou du projet, et régulièrement révisée.</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Caractéristique"><strong>Nature</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère d'Acceptation">Décrivent le comportement attendu de la fonctionnalité.</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Définition de &quot;Done&quot; (DoD)">Décrivent les standards de qualité, les processus et les livrables requis.</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Caractéristique"><strong>Exemples de critères d'acceptation</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère d'Acceptation">- L'utilisateur peut se connecter avec un email et un mot de passe.  - Le bouton "Soumettre" est activé après avoir rempli tous les champs obligatoires.</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Définition de &quot;Done&quot; (DoD)">- Tout le code est revu par un pair. - Tous les tests unitaires passent. - La documentation est à jour. - Le code est intégré à la branche principale.</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Caractéristique"><strong>Format</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère d'Acceptation">Généralement formulés en langage naturel, souvent sous forme de "Given/When/Then".</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Définition de &quot;Done&quot; (DoD)">Liste de points vérifiables.</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Caractéristique"><strong>Focus</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère d'Acceptation">Fonctionnalité et expérience utilisateur.</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Définition de &quot;Done&quot; (DoD)">Qualité, stabilité et conformité.</td></tr></tbody></table></div>
 <p><strong>En résumé :</strong></p>
@@ -259,12 +264,12 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Qu'est-ce qu'un critère d'acceptation ?</summary>
+    <summary>Qu'est-ce qu'un critère d'acceptation ?</summary><br/>
     <p>Condition permettant de dire si une User Story est acceptée ou rejetée.</p>
 </details>
 
 <details>
-    <summary>Quelle est la différence entre User Story et cas de test ?</summary>
+    <summary>Quelle est la différence entre User Story et cas de test ?</summary><br/>
     <ul>
         <li>User Story: besoin métier</li>
         <li>Cas de test: validation technique / fonctionnelle</li>
@@ -272,27 +277,27 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Qui est responsable de la qualité en Agile ?</summary>
+    <summary>Qui est responsable de la qualité en Agile ?</summary><br/>
     <p>La qualité est une responsabilité collective: développeurs, QA, PO et équipe ensemble</p>
 </details>
 
 <details>
-    <summary>Le QA peut-il refuser une User Story ?</summary>
+    <summary>Le QA peut-il refuser une User Story ?</summary><br/>
     <p>Le QA donne un avis qualité, mais la décision finale revient au Product Owner selon la valeur métier.</p>
 </details>
 
 <details>
-    <summary>Que faire si une User Story est mal définie ?</summary>
+    <summary>Que faire si une User Story est mal définie ?</summary><br/>
     <p>Il faut demander des clarifications, aider à la définition des critères d'acceptation avant le développement.</p>
 </details>
 
 <details>
-    <summary>Peut-on avoir des bugs en production en Agile ?</summary>
+    <summary>Peut-on avoir des bugs en production en Agile ?</summary><br/>
     <p>Oui, c'est possible. L'agilité vise à réduire le risque, pas à l'éliminer totalement. L'important est la réactivité.</p>
 </details>
 
 <details>
-    <summary>Peut-on modifier une User Story pendant le sprint ?</summary>
+    <summary>Peut-on modifier une User Story pendant le sprint ?</summary><br/>
     <p>Oui, si l'impact est maîtriser et validé par le PO, tout en respectant l'objectif du sprint.</p>
     <p><strong>Example:</strong></p>
     <p>Je travaille comme QA dans une équipe Scrum.<br/>Sprint de 2 semaines<br/>Produit: application mobile de paiement<br/>Une User Story importante arrive en fin de sprint, mais:</p>
@@ -306,12 +311,12 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>La User Story n'a pas de critères d'acceptation clairs. Que faire ?</summary>
+    <summary>La User Story n'a pas de critères d'acceptation clairs. Que faire ?</summary><br/>
     <p>Demander une clarification immédiate avec le PO (3 amigos) et proposer des critères d'acceptation basés sur le besoin métier avant d'exécuter les tests.</p>
 </details>
 
 <details>
-    <summary>Que faire si l'on trouve un bug bloquant en fin de sprint ?</summary>
+    <summary>Que faire si l'on trouve un bug bloquant en fin de sprint ?</summary><br/>
     <p>Je le déclare immédiatement. J'évalue la sévérité. J'informe le PO et on décide ensemble s'il faut corriger, reporter ou sortir la User Story du sprint.</p>
     <ul>
         <li>Transparence</li>
@@ -321,19 +326,19 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>La User Story est livrée avec un bug. Est-ce un échec du QA ?</summary>
+    <summary>La User Story est livrée avec un bug. Est-ce un échec du QA ?</summary><br/>
     <p>Non. Le QA a identifié le risque et informé. La qualité est une responsabilité collective, pas individuelle.</p>
 </details>
 
 <details>
-    <summary>Que dire en rétrospective ?</summary>
+    <summary>Que dire en rétrospective ?</summary><br/>
     <p>Expliquer ce qui a bien fonctionné, ce qui a posé problème et proposer des actions concrètes pour améliorer la qualité dès le début du sprint</p>
 </details>
 
 ## 💻Automatisation
 
 <details>
-    <summary>Pourquoi automatiser les tests ?</summary>
+    <summary>Pourquoi automatiser les tests ?</summary><br/>
     <ul>
         <li>Gain de temps</li>
         <li>Réduction des erreurs huamaines</li>
@@ -343,7 +348,7 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Quels sont les principaux types de tests automatisés en QA ?</summary>
+    <summary>Quels sont les principaux types de tests automatisés en QA ?</summary><br/>
     <p>L’automatisation ne se limite pas aux tests E2E. Elle intervient à plusieurs niveaux pour sécuriser la qualité logicielle.L’objectif n’est pas d’automatiser tout, mais d’automatiser au bon niveau.</p>
     <ul>
         <li>Tests unitaires : vérifient les fonctions ou méthodes individuellement</li>
@@ -360,7 +365,7 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Quels types de cas de tests sont favorables à l'automatisation?</summary>
+    <summary>Quels types de cas de tests sont favorables à l'automatisation?</summary><br/>
     <ul>
         <li>TNR (tests de non-regression)</li>
         <li>Tests stables</li>
@@ -371,7 +376,7 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Qu'est-ce que la méthode BDD ?</summary>
+    <summary>Qu'est-ce que la méthode BDD ?</summary><br/>
     <p>La méthode BDD (Behavior-Driven Development) est une approche de développement logiciel qui étend le TDD (Test-Driven Development) en se concentrant sur le comportement attendu de l'application plutôt que sur les tests techniques</p>
     <p>Principes clés<p>
     <ul>
@@ -386,7 +391,7 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Différence entre Selenium / Cypress / Playwright ?</summary>
+    <summary>Différence entre Selenium / Cypress / Playwright ?</summary><br/>
     <div class="ih-TJeJGAB7RWy43i3OeTw==">
     <div class="c+qhpcvP6H3VCSU9BgHRlQ=="><table class="zxqV+AyRUca+MLhV37xZ3A=="><thead class="vws+0UuF+kO6CYMvFHvtZQ=="><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><th class="Twce1OmS+ZcG-oo8+adRMg==">Critère</th><th class="Twce1OmS+ZcG-oo8+adRMg==">Selenium</th><th class="Twce1OmS+ZcG-oo8+adRMg==">Cypress</th><th class="Twce1OmS+ZcG-oo8+adRMg==">Playwright</th></tr></thead><tbody class="o4qKFCTY3cX9YjCR2ocmKA=="><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Année de création</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">2004</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">2015</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">2020</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Langages supportés</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Java, Python, C#, JavaScript, Ruby, etc.</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">JavaScript/TypeScript uniquement</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">JavaScript, Python, Java, C#</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Navigateurs</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Chrome, Firefox, Safari, Edge, IE</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Chrome, Firefox, Edge (limité)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Chrome, Firefox, Safari, Edge</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Architecture</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">WebDriver (hors navigateur)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Exécution dans le navigateur</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Protocole DevTools (hors navigateur)</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Vitesse</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Moyenne</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Rapide</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Très rapide</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Installation</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Complexe (drivers requis)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Simple (npm)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Simple (npm, auto-installation)</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Tests parallèles</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Oui (avec configuration)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Payant (Cypress Cloud)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Natif et gratuit</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Multi-onglets/fenêtre</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Oui</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Non</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Oui</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Attente automatique</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Non (explicite requise)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Oui</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Oui</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Débogage</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Difficile</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Excellent (time-travel)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Excellent (traces, vidéos)</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>API testing</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Non natif</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Oui</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Oui</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Mobile</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Oui (avec Appium)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Non</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Oui (émulation)</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Communauté</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Très large (mature)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Grande et active</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Croissante rapidement</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Courbe d'apprentissage</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Élevée</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Moyenne</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Moyenne</td></tr></tbody></table></div>
     <p><strong>Recommandation</strong> : Playwright pour les nouveaux projets (moderne, complet), Cypress pour la simplicité JavaScript, Selenium pour les projets legacy ou multi-langages établis.</p></div>
@@ -395,12 +400,12 @@ Questions et réponses pour entretien
 ### 🔸Appium
 
 <details>
-    <summary>Qu'est-ce que Appium ?</summary>
+    <summary>Qu'est-ce que Appium ?</summary><br/>
     <p>Appium est un outil open-source permettant d’automatiser les tests mobiles Android et iOS, natifs, hybrides et web.</p>
 </details>
 
 <details>
-    <summary>Pourquoi choisir Appium ?</summary>
+    <summary>Pourquoi choisir Appium ?</summary><br/>
     <ul>
         <li>Cross-platform</li>
         <li>Même code pour Android & iOS</li>
@@ -410,7 +415,7 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Architecture Appium ?</summary>
+    <summary>Architecture Appium ?</summary><br/>
     <ul>
         <li>1.  **Client --> Serveur Appium:** Requête HTTP (JSON)</li>
         <li>2.  **Serveur Appium --> Appareil/Simulateur:** Commandes natives</li>
@@ -422,12 +427,12 @@ Questions et réponses pour entretien
 ### 🔸CI / CD
 
 <details>
-    <summary>Qu'est que CI/CD ?</summary>
+    <summary>Qu'est que CI/CD ?</summary><br/>
     <div class="c+qhpcvP6H3VCSU9BgHRlQ=="><table class="zxqV+AyRUca+MLhV37xZ3A=="><thead class="vws+0UuF+kO6CYMvFHvtZQ=="><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><th class="Twce1OmS+ZcG-oo8+adRMg==">Caractéristique</th><th class="Twce1OmS+ZcG-oo8+adRMg==">Intégration continue (CI)</th><th class="Twce1OmS+ZcG-oo8+adRMg==">Déploiement continu (CD)</th><th class="Twce1OmS+ZcG-oo8+adRMg==">Continuous Deployment</th></tr></thead><tbody class="o4qKFCTY3cX9YjCR2ocmKA=="><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Caractéristique"><strong>Objectif</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Continuous Integration (CI)">Intégration fréquente du code</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Continuous Delivery (CD)">Automatisation de la mise à disposition</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Continuous Deployment">Automatisation du déploiement en production</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Caractéristique"><strong>Automatisation</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Continuous Integration (CI)">Tests unitaires, tests d'intégration</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Continuous Delivery (CD)">Déploiement en environnement de test/pré-production</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Continuous Deployment">Déploiement en production</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Caractéristique"><strong>Intervention humaine</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Continuous Integration (CI)">Minimale</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Continuous Delivery (CD)">Possible pour le déploiement final</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Continuous Deployment">Nulle</td></tr></tbody></table></div>
 </details>
 
 <details>
-    <summary>Outils CI/CD ?</summary>
+    <summary>Outils CI/CD ?</summary><br/>
     <ul>
         <li>Jenkins</li>
         <li>GitLab CI/CD</li>
@@ -440,7 +445,7 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Appium en CI/CD ?</summary>
+    <summary>Appium en CI/CD ?</summary><br/>
     <ul>
         <li>Exécution automatique des tests mobiles</li>
         <li>Génération de rapports</li>
@@ -448,15 +453,62 @@ Questions et réponses pour entretien
     </ul>
 </details>
 
+### 🔸Cucumber
+<details>
+    <summary>Qu'est-ce que Cucumber ?</summary><br/>
+    <p>Cucumber est un framework open source conçu pour le Behavior-Driven Development (BDD), une méthodologie de développement logiciel qui encourage la collaboration entre développeurs, testeurs, chefs de produit et parties prenantes métier.  Il permet d'écrire des spécifications exécutables en langage naturel, compréhensibles par tous, afin de définir le comportement attendu d'une application.</p>
+    <p>Développé initialement en Ruby, Cucumber est aujourd'hui disponible pour plusieurs langages, notamment Java, JavaScript, .NET, et Python.  Il utilise un langage spécifique appelé Gherkin pour décrire les fonctionnalités et scénarios de test.</p>
+    <p>Le principe fondamental du BDD est de formuler les exigences sous forme d’exemples concrets, ce qui réduit les ambiguïtés et aligne les attentes entre les équipes techniques et fonctionnelles.</p>
+</details>
+<details>
+    <summary>Fonctionnalités et syntaxe Gherkin</summary><br/>
+    <p>Gherkin est un langage DSL (Domain-Specific Language) simple et lisible, utilisé pour écrire les fichiers .feature. Il repose sur une grammaire structurée autour de mots-clés clairs.</p>
+    <div class="table-wrapper svelte-1fz0gqk"><table class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><tr class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><td class="short svelte-1fz0gqk"><!----><!----><!----><span class="svelte-1fz0gqk">Mot-clé</span></td><!----><!----><!----><!----><!----><!----><td class="short svelte-1fz0gqk"><!----><!----><!----><span class="svelte-1fz0gqk">Rôle</span></td><!----><!----><!----><!----><!----><!----><td class="short svelte-1fz0gqk"><!----><!----><!----><span class="svelte-1fz0gqk">Exemple</span></td></tr><!----><!----><!----><!----><!----><!----><tr class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><td class="short svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk">Feature</code></td><!----><!----><!----><!----><!----><!----><td class="long svelte-1fz0gqk"><!----><!----><!----><span class="svelte-1fz0gqk">Définit une fonctionnalité du système</span></td><!----><!----><!----><!----><!----><!----><td class="long svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk">Feature: Connexion à l'application</code></td></tr><!----><!----><!----><!----><!----><!----><tr class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><td class="short svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk">Scenario</code></td><!----><!----><!----><!----><!----><!----><td class="long svelte-1fz0gqk"><!----><!----><!----><span class="svelte-1fz0gqk">Décrit un cas d'usage concret</span></td><!----><!----><!----><!----><!----><!----><td class="long svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk">Scenario: Connexion réussie avec identifiants valides</code></td></tr><!----><!----><!----><!----><!----><!----><tr class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><td class="short svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk">Given</code></td><!----><!----><!----><!----><!----><!----><td class="long svelte-1fz0gqk"><!----><!----><!----><span class="svelte-1fz0gqk">Établit le contexte initial</span></td><!----><!----><!----><!----><!----><!----><td class="long svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk">Given L'utilisateur est sur la page de connexion</code></td></tr><!----><!----><!----><!----><!----><!----><tr class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><td class="short svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk">When</code></td><!----><!----><!----><!----><!----><!----><td class="long svelte-1fz0gqk"><!----><!----><!----><span class="svelte-1fz0gqk">Décrit l'action de l'utilisateur</span></td><!----><!----><!----><!----><!----><!----><td class="long svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk">When L'utilisateur saisit "admin" et "password123"</code></td></tr><!----><!----><!----><!----><!----><!----><tr class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><td class="short svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk">Then</code></td><!----><!----><!----><!----><!----><!----><td class="long svelte-1fz0gqk"><!----><!----><!----><span class="svelte-1fz0gqk">Spécifie le résultat attendu</span></td><!----><!----><!----><!----><!----><!----><td class="long svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk">Then Un message "Connexion réussie" s'affiche</code></td></tr><!----><!----><!----><!----><!----><!----><tr class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><td class="short svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk">And</code><!----><!----><span class="svelte-1fz0gqk"> / </span><!----><!----><!----><code class="svelte-1fz0gqk">But</code></td><!----><!----><!----><!----><!----><!----><td class="long svelte-1fz0gqk"><!----><!----><!----><span class="svelte-1fz0gqk">Ajoute des conditions ou résultats supplémentaires</span></td><!----><!----><!----><!----><!----><!----><td class="long svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk">And L'utilisateur est redirigé vers le tableau de bord</code></td></tr></table><!----> <div class="table-sticky svelte-1fz0gqk"><div class="table-tools svelte-kkcwos">
+    <h3>Fonctionnalités avancées</h3>
+    <ul class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><li class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><p class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><strong class="svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk">Background</code></strong><!----><!----><span class="svelte-1fz0gqk"> : Permet de définir des étapes exécutées avant chaque scénario d'une fonctionnalité, utile pour éviter la duplication. </span></p></li><!----><!----><!----><!----><!----><!----><li class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><p class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><strong class="svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk">Scenario Outline</code></strong><!----><!----><span class="svelte-1fz0gqk"> : Permet de paramétrer un scénario et de le répéter avec différents jeux de données via une table </span><!----><!----><!----><code class="svelte-1fz0gqk">Examples</code><!----><!----><span class="svelte-1fz0gqk">. </span></p></li><!----><!----><!----><!----><!----><!----><li class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><p class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><strong class="svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk">@Tags</code></strong><!----><!----><span class="svelte-1fz0gqk"> : Permet d’annoter des scénarios ou fonctionnalités pour les filtrer lors de l’exécution (ex: </span><!----><!----><!----><code class="svelte-1fz0gqk">@smoke</code><!----><!----><span class="svelte-1fz0gqk">, </span><!----><!----><!----><code class="svelte-1fz0gqk">@regression</code><!----><!----><span class="svelte-1fz0gqk">). </span></li><!----><!----><!----><!----><!----><!----><li class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><p class="svelte-1fz0gqk"><!----><!----><!----><!----><!----><!----><!----><strong class="svelte-1fz0gqk"><!----><!----><!----><!----><code class="svelte-1fz0gqk"># Comments</code></strong><!----><!----><span class="svelte-1fz0gqk"> : Les commentaires sont ignorés par Cucumber et servent à documenter le fichier. </span>
+    <h3>Fichiers clés</h3>
+    <ul>
+        <li>
+            <code>*.feature:</code> Situés dans <em>src/tests/resources/features</em>, ils décrivent les comportements (Given / When / Then) qui implémentent les étapes de scénarios
+        </li>
+        <li>
+            <strong>Classes de Step Definitions</strong>: contiennent les méthodes annotées
+        </li>    
+    </ul>
+</details>  
+<details>
+    <summary>Bonnes pratiques et optimisations</summary><br/>
+    <ul>
+        <li>Écrire des scénarios indépendants : Chaque scénario doit pouvoir s’exécuter seul.</li>
+        <li>Utiliser Scenario Outline pour les tests paramétrés.</li>
+        <li>Éviter les étapes trop longues : Une étape doit correspondre à une action ou une assertion claire.</li>
+        <li>Nommer les scénarios de manière explicite : Ex: Scenario: Échec de connexion avec mot de passe incorrect.</li>
+        <li>Utiliser des tags pour organiser les tests : Exécuter uniquement les tests @smoke ou ignorer les @wip (work in progress).</li>
+        <li>Maintenir les steps réutilisables : Éviter la duplication de code dans les step definitions. </li>
+    </ul>
+</details>
+<details>
+    <summary>Intégration avec d'autres outils</summary><br/>
+    <ul>
+        <li><strong>Selenium WebDriver</strong> : Pour les tests d’interface utilisateur.</li>
+        <li><strong>RestAssured / Karate</strong> : Pour les tests d’API REST.</li>
+        <li><strong>JUnit / TestNG</strong> : Pour le lancement et la gestion des tests.</li>
+        <li><strong>Maven / Gradle</strong> : Pour la gestion des dépendances et l’automatisation.</li>
+        <li><strong>Jenkins / GitLab CI</strong> : Pour l’exécution automatisée dans les pipelines.</li>
+        <li><strong>Allure / Cucumber Reports</strong> : Pour des rapports visuels riches et interactifs.</li>
+    </ul>
+</details>    
+  
+
 ## 🌐API
 
 <details>
-    <summary>Qu'est-ce qu'une API ?</summary>
+    <summary>Qu'est-ce qu'une API ?</summary><br/>
     <p>Une API permet à deux systèmes de communiquer via HTTP (GET, POST, PUT, DELETE).</p>
 </details>
 
 <details>
-    <summary>Quels types de tests faire sur une API ?</summary>
+    <summary>Quels types de tests faire sur une API ?</summary><br/>
     <ul>
         <li>Tests fonctionnels</li>
         <li>Tests de statut HTTP</li>
@@ -467,7 +519,7 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Différence entre GET / POST ?</summary>
+    <summary>Différence entre GET / POST ?</summary><br/>
     <p><strong>GET</strong></p>
     <ul>
         <li><strong>Usage</strong> : Récupérer des données depuis le serveur</li>
@@ -489,14 +541,14 @@ Questions et réponses pour entretien
 </details>
 
 <details>
-    <summary>Outils API ?</summary>
+    <summary>Outils API ?</summary><br/>
     <p>Postman, Swagger</p>
 </details>
 
 ## 📒Autres
 
 <details>
-    <summary>En informatique, que signifie 'comprendre le métier' ? Quelle attitude adopter en tant que QA ?</summary>
+    <summary>En informatique, que signifie 'comprendre le métier' ? Quelle attitude adopter en tant que QA ?</summary><br/>
         <p>En informatique, le terme "métier" fait référence aux activités, processus et règles spécifiques d'un domaine professionnel ou d'une entreprise.</p>
         <p>On parle souvent de :</p>  
         <strong>Règles métier :</strong> les contraintes et conditions spécifiques au domaine d'activité      
@@ -508,7 +560,7 @@ Questions et réponses pour entretien
 </details>
 
 <!-- <details>
-    <summary>Hello</summary>
+    <summary>Hello</summary><br/>
     <p>World !</p>
 </details> -->
 
