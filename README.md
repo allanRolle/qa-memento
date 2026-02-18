@@ -351,15 +351,15 @@ Questions et réponses pour entretien
     <summary>Quels sont les principaux types de tests automatisés en QA ?</summary><br/>
     <p>L’automatisation ne se limite pas aux tests E2E. Elle intervient à plusieurs niveaux pour sécuriser la qualité logicielle.L’objectif n’est pas d’automatiser tout, mais d’automatiser au bon niveau.</p>
     <ul>
-        <li>Tests unitaires : vérifient les fonctions ou méthodes individuellement</li>
-        <li>Tests d’intégration : valident les échanges entre composants (API, services, BDD)</li>
-        <li>Tests End-to-End (E2E) : reproduisent un parcours utilisateur complet</li>
-        <li>Tests de non-régression : garantissent qu’une évolution n’a rien cassé</li>
-        <li>Smoke tests : contrôlent rapidement les fonctionnalités essentielles</li>
-        <li>Tests UI : vérifient le comportement et l’affichage de l’interface</li>
-        <li>Tests API : testent la logique métier sans passer par l’UI</li>
-        <li> Tests de performance : mesurent stabilité et temps de réponse</li>
-        <li>Tests de sécurité (basique) : détectent certaines vulnérabilités connues</li>
+        <li>Tests unitaires: vérifient les fonctions ou méthodes individuellement</li>
+        <li>Tests d’intégration: valident les échanges entre composants (API, services, BDD)</li>
+        <li>Tests End-to-End (E2E): reproduisent un parcours utilisateur complet</li>
+        <li>Tests de non-régression: garantissent qu’une évolution n’a rien cassé</li>
+        <li>Smoke tests: contrôlent rapidement les fonctionnalités essentielles</li>
+        <li>Tests UI: vérifient le comportement et l’affichage de l’interface</li>
+        <li>Tests API: testent la logique métier sans passer par l’UI</li>
+        <li>Tests de performance: mesurent stabilité et temps de réponse</li>
+        <li>Tests de sécurité (basique): détectent certaines vulnérabilités connues</li>
         <li>Automatiser, c’est : gagner du temps, limiter les erreurs humaines et sécuriser les releases via la CI/CD</li>
     </ul>
 </details>
@@ -497,9 +497,95 @@ Questions et réponses pour entretien
         <li><strong>Jenkins / GitLab CI</strong> : Pour l’exécution automatisée dans les pipelines.</li>
         <li><strong>Allure / Cucumber Reports</strong> : Pour des rapports visuels riches et interactifs.</li>
     </ul>
-</details>    
-  
+</details>   
 
+### 🔸Cypress
+<details>
+    <summary>Qu'est-ce que Cypress ?</summary><br/>
+    <p>Cypress est un outil de test de bout en bout (End-to-End) basé sur JavaScript. Il est conçu pour les applications web modernes et permet de tester tout ce qui s'exécute dans un navigateur. Il est rapide, facile à utiliser et ne nécessite pas de configuration complexe comme Selenium.</p>
+</details>
+
+<details>
+    <summary>Quelles sont les principales fonctionnalités de Cypress ?</summary><br/>
+    <ul>
+        <li>Voyage dans le temps (Time Travel) : Cypress prend des instantanés au fur et à mesure de l'exécution des tests.</li>
+        <li>Capacité de débogage : Débogage direct via les outils de développement du navigateur (Chrome DevTools).</li>
+        <li>Attente automatique (Automatic Waiting) : Plus besoin d'ajouter des pauses ou des attentes explicites ; Cypress attend que les éléments apparaissent.</li>
+        <li>Capture d'écran et Vidéos : Capture automatique lors d'un échec.</li>
+    </ul>
+</details>    
+
+<details>
+    <summary>Quelles sont les limitations de Cypress ?</summary><br/>
+    <ul>
+        <li>Il ne supporte pas les tests sur mobile natif (uniquement le web mobile).</li>
+        <li>Il ne permet pas de tester sur plusieurs onglets de navigateur simultanément.</li>
+        <li>Le support pour Safari et Internet Explorer est limité par rapport à Chrome ou Firefox.</li>
+    </ul>    
+</details>
+
+<details>
+    <summary>Qu'est-ce que le "Selector Playground" ?</summary><br/>
+    <p>C'est un outil interactif intégré à l'interface de Cypress qui permet de générer des sélecteurs uniques pour les éléments de votre page. Il aide à trouver le sélecteur le plus robuste (en privilégiant souvent les attributs <u>data-cy</u> ou <u>data-test</u>).</p>
+</details>    
+
+<details>
+    <summary>Quelle est la différence entre cy.find() et cy.get() ?</summary><br/>
+    <ul>
+        <li>cy.get() : Recherche un élément à partir de la racine du document (niveau global).</li>
+        <li>cy.find() : Recherche un élément enfant à l'intérieur d'une commande précédente (doit être chaîné).</li>
+    </ul>
+</details>
+
+<details>
+    <summary>Comment gérer les promesses et l'asynchronisme dans Cypress ?</summary><br/>
+    <ul>
+        <li>Cypress gère l'asynchronisme en interne via une file d'attente de commandes. On n'utilise pas async/await. Si l'on a besoin de manipuler le résultat d'une commande, on utilise .then() :</li>
+        <pre>
+            cy.get('.bouton').then(($btn) => {  
+                const texte = $btn.text();
+                // Logique ici
+            });
+        </pre>
+    </ul>
+</details>
+<details>
+    <summary>Que sont les "Fixtures" et comment les utiliser ?</summary><br/>
+    <p>Les fixtures sont des fichiers (souvent JSON) utilisés pour stocker des données statiques afin de simuler des réponses d'API ou des jeux de données de test. On les charge via cy.fixture('nom_du_fichier').</p>
+</details>
+
+<details>
+    <summary>Comment créer une commande personnalisée ?</summary><br/>
+    <p>Les commandes personnalisées sont définies dans le fichier <u>cypress/support/commands.js</u>. Elles permettent d'éviter la répétition de code (ex: cy.login()).</p>
+    <pre>
+    Cypress.Commands.add('login', (email, password) => {
+        cy.get('#email').type(email);
+        cy.get('#password').type(password);
+        cy.get('#submit').click();
+    });
+    </pre>
+</details>
+
+<details>
+    <summary>Quelle est la meilleure façon de sélectionner des éléments ?</summary><br/>
+    <p>Il ne faut pas se baser sur les classes CSS ou les tags HTML qui changent souvent. La recommandation officielle est d'utiliser des attributs dédiés au test : 
+    <pre>cy.get('[data-cy="submit-btn"]')</pre></p>
+</details>
+
+<details>
+    <summary>Pourquoi Cypress est-il parfois critiqué ?</summary><br/>
+    <ul>
+        <li>Il ne supporte pas le multi-onglets nativement.</li>
+        <li>Il est limité à l'exécution dans un seul domaine par test (même si cela s'est assoupli avec cy.origin).</li>
+        <li>Il ne supporte pas (encore) tous les navigateurs mobiles de manière native.</li>
+    </ul>
+</details>
+
+<details>
+    <summary>Comment simuler (stubber) une requête API ?</summary><br/>
+    <p>On utilise <u>cy.intercept()</u>. Cela permet de surveiller les requêtes réseau et de renvoyer des réponses personnalisées sans toucher au vrai backend.</p>
+</details>
+  
 ## 🌐API
 
 <details>
