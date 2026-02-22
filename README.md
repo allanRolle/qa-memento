@@ -539,7 +539,9 @@ Questions et réponses pour entretien
 
 <details>
     <summary>Comment gérer les promesses et l'asynchronisme dans Cypress ?</summary><br/>
+    <h2>Le mécanisme de la Queue</h2>
     <ul>
+        <li>Contrairement à une idée reçue, <code>cy.get()</code> ou <code>cy.visit()</code> ne retournent pas des Promesses. Techniquement, les commandes Cypress sont des objets compatibles avec l'interface "Thenable", mais elles sont surtout des éléments d'une file d'attente (Queue).</li>
         <li>Cypress gère l'asynchronisme en interne via une file d'attente de commandes. On n'utilise pas async/await. Si l'on a besoin de manipuler le résultat d'une commande, on utilise .then() :</li>
         <pre>
             cy.get('.bouton').then(($btn) => {  
@@ -547,7 +549,28 @@ Questions et réponses pour entretien
                 // Logique ici
             });
         </pre>
+        <li>Une fois que la fonction de test a fini de s'exécuter, Cypress "joue" cette liste une par une.</li>
     </ul>
+    <h2>L'architecture: le rôle de Node.js vs le Navigateur</h2>
+    <ul>
+        <li><strong>Le Navigateur (Le cœur)</strong>: Contrairement à Selenium qui envoie des commandes HTTP à distance, Cypress s'exécute à l'intérieur du navigateur, dans la même boucle d'événement (Event Loop) que votre application. Cela lui permet de surveiller tout ce qui s'y passe en temps réel.</li>
+        <li><strong>Node.js (Le support)</strong> : Node.js tourne en arrière-plan pour gérer les tâches hors-navigateur (lire des fichiers, configurer le réseau, prendre des captures d'écran).</li>
+    </ul>           
+    <h2>L'architecture : Le rôle de Node.js vs le Navigateur</h2>
+    <p>Votre intuition sur Node.js est partiellement correcte, mais l'explication réside dans la séparation des pouvoirs :</p>
+    <p>Le Navigateur (Le cœur) : Contrairement à Selenium qui envoie des commandes HTTP à distance, Cypress s'exécute à l'intérieur du navigateur, dans la même boucle d'événement (Event Loop) que votre application. Cela lui permet de surveiller tout ce qui s'y passe en temps réel.</p>
+    <p>Node.js (Le support) : Node.js tourne en arrière-plan pour gérer les tâches hors-navigateur (lire des fichiers, configurer le réseau, prendre des captures d'écran).</p>
+    <p>C'est cette synchronisation constante entre le processus Node et le navigateur qui permet à Cypress de savoir exactement quand l'application est "occupée" ou "prête".</p>
+    <h2>Pourquoi est-ce "Asynchrone" alors ?</h2>
+    <p>Cypress est asynchrone principalement à cause de sa gestion de la ré-tentative (Retry-ability).</p>
+    <p>Lorsqu'on appelle <code>cy.get('.loader')</code>, Cypress ne se contente pas de chercher l'élément une fois. Il lance une boucle asynchrone qui :</p>
+    <ul>
+        <li>Cherche l'élément.</li>
+        <li>Si non trouvé, attend quelques millisecondes.</li>
+        <li>Recommence jusqu'à ce que l'élément apparaisse ou que le timeout (souvent 4s) soit atteint.</li>
+    </ul>
+    <p>C'est cette nature "non-bloquante" et basée sur le temps qui rend le framework intrinsèquement asynchrone, tout en offrant une syntaxe qui ressemble à du code synchrone pour faciliter la lecture.</p>
+    <table style="border:1px solid" data-path-to-node="21"><thead><tr><td><span data-path-to-node="21,0,0,0">Concept</span></td><td><span data-path-to-node="21,0,1,0">Réalité Cypress</span></td></tr></thead><tbody><tr><td><span data-path-to-node="21,1,0,0"><b data-path-to-node="21,1,0,0" data-index-in-node="0">Promesses ?</b></span></td><td><span data-path-to-node="21,1,1,0">Non, c'est une <b data-path-to-node="21,1,1,0" data-index-in-node="15">Queue de commandes</b> gérée de manière déterministe.</span></td></tr><tr><td><span data-path-to-node="21,2,0,0"><b data-path-to-node="21,2,0,0" data-index-in-node="0">Node.js ?</b></span></td><td><span data-path-to-node="21,2,1,0">Oui, pour les tâches système, mais l'exécution réelle est dans le <b data-path-to-node="21,2,1,0" data-index-in-node="66">navigateur</b>.</span></td></tr><tr><td><span data-path-to-node="21,3,0,0"><b data-path-to-node="21,3,0,0" data-index-in-node="0">Asynchronisme ?</b></span></td><td><span data-path-to-node="21,3,1,0">Vient de la gestion des <b data-path-to-node="21,3,1,0" data-index-in-node="24">timeouts</b> et de la <b data-path-to-node="21,3,1,0" data-index-in-node="42">ré-tentative automatique</b>.</span></td></tr></tbody></table>
 </details>
 <details>
     <summary>Que sont les "Fixtures" et comment les utiliser ?</summary><br/>
