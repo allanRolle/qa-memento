@@ -15,7 +15,7 @@ Questions et réponses pour entretien
     <li></li>
 </ul> -->
 
-## 🫂Soft skills
+## 🫂 Soft skills
 
 <details>
     <summary>Quelles sont les qualités d'un bon testeur ?</summary><br/>
@@ -38,7 +38,7 @@ Questions et réponses pour entretien
     </ul>
 </details>
 
-## 🪲Général
+## 🪲 Général
 
 <details>
     <summary>Cycle de vie d'un QA ?</summary><br/>
@@ -227,8 +227,54 @@ Questions et réponses pour entretien
     <p>Des indicateurs utiles, pas des vanity metrics.</p>
     <p>Une bonne stratégie de test ne vise pas la couverture maximale, mais la maîtrise du risque.</p>
 </details>
+<details>
+    <summary>Quand arrêter de tester ?</summary><br/>
+    <ul>
+        <li>Comprendre le parcours de l’utilisateur</li>
+        <li>Clarifier les hypothèses avec les parties prenantes</li>
+        <li>Identifier les parcours à haut risque</li>
+        <li>Concevoir des scénarios de test rapides</li>
+        <li>Documenter les découvertes pendant l’exploration</li>
+    </ul>
+    <p>L’exploration sans structure, c’est deviner.</p>
+    <p>L’exploration structurée, c’est une compétence.</p>
+</details>
 
-## 📈Agile
+<details>
+    <summary>Qu’est-ce qui rend un bug critique ?</summary><br/>
+    <p>Un défaut qui:</p>
+    <ul>
+        <li>Bloque une fonctionnalité essentielle</li>
+        <li>Affecte les revenus</li>
+        <li>Perturbe les principaux parcours utilisateurs</li>
+        <li>Endommage la confiance des utilisateurs</li>
+        <li>N’a pas de solution de contournement</li>
+    </ul>
+    <p>La gravité est technique.</p>
+    <p>La criticité est liée à l’impact business.</p>
+</details>
+
+<details>
+    <summary>Comment prioriser les tests sous des délais serrés ?</summary><br/>
+    <ul>
+        <li>Se concentrer sur les zones à haut risque</li>
+        <li>Valider les parcours métier critiques</li>
+        <li>Vérifier les intégrations</li>
+        <li>Couvrir d’abord les dernières modifications</li>
+        <li>Communiquer clairement les risques liés à la mise en production</li>
+    </ul>
+    <p>La vitesse sans stratégie crée des bugs en production.</p>
+</details>
+
+<details>
+    <summary>Qu’est-ce que le test basé sur les risques ?</summary><br/>
+    <p>Allouer les efforts de test en fonction de :<br/>
+    Risque = Probabilité de défaillance × Impact métier<br/>
+    Tout ne nécessite pas un niveau de test équivalent.<br/>
+    Les testeurs expérimentés testent plus intelligemment, pas plus longtemps.</p>
+</details>
+
+## 📈 Agile
 
 <details>
     <summary>Quel est le rôle du QA en Agile ?</summary><br/>
@@ -335,7 +381,7 @@ Questions et réponses pour entretien
     <p>Expliquer ce qui a bien fonctionné, ce qui a posé problème et proposer des actions concrètes pour améliorer la qualité dès le début du sprint</p>
 </details>
 
-## 💻Automatisation
+## 💻 Automatisation
 
 <details>
     <summary>Pourquoi automatiser les tests ?</summary><br/>
@@ -608,8 +654,73 @@ Questions et réponses pour entretien
     <summary>Comment simuler (stubber) une requête API ?</summary><br/>
     <p>On utilise <u>cy.intercept()</u>. Cela permet de surveiller les requêtes réseau et de renvoyer des réponses personnalisées sans toucher au vrai backend.</p>
 </details>
+
+<details>
+    <summary>Quelle difference entre Cypress et Postman pour tester une API ?</summary><br/>
+    <p>Cypress et Postman sont tous deux utilisés pour tester des API, mais ils diffèrent par leur objectif et leurs fonctionnalités :</p>  
+    <p>Postman est un outil dédié aux tests d'API, idéal pour explorer, développer et valider manuellement des endpoints. Il permet d'envoyer des requêtes HTTP, de sauvegarder des collections, d'automatiser des tests via des scripts et de générer de la documentation. Il fonctionne indépendamment de l'interface utilisateur.</p> 
+    <p>Cypress, en revanche, est principalement un outil de test end-to-end pour les applications web.  Il peut tester des API via cy.request() ou cy.intercept(), mais son objectif principal est de valider l'interaction entre l'UI et les API. Il excelle dans les tests automatisés qui combinent navigation, actions utilisateur et vérification des appels réseau.</p> 
+    <p>En résumé :</p>
+    <ul>
+        <li>👉 Postman = test d'API pur, manuel ou automatisé.</li>
+        <li>👉 Cypress = test d'interface avec vérification des appels API en contexte utilisateur. </li>
+    </ul>    
+</details>
+
+<details>
+    <summary>Comment débugger un test ?</summary><br/>
+    <ul>
+        <li>Utiliser <code>cy.log()</code> pour imprimer des messages dans la console Cypress.</li>
+        <li>Utiliser <code>.debug()</code> ou <code>.pause()</code> dans le code pour arrêter l'exécution</li>
+        <li>Consulter les captures d'écran et vidéos générées automatiquement dans le dossier <code>cypress/screenshots.</code></li>
+    </ul>
+</details>
+
+### 🔸Playwright
+
+<details>
+    <summary>Expliquer deux avantages clés de l'utilisation de Playwright</summary><br/>
+    <ol>
+        <li>Attentes automatiques (auto-waits) : Playwright attend automatiquement que les éléments soient prêts avant d’interagir avec eux (cliquer, saisir, etc.), ce qui réduit considérablement les échecs aléatoires des tests et améliore leur fiabilité.</li>
+        <li>Compatibilité multi-navigateurs : Il prend en charge Chromium, Firefox et WebKit, permettant d’exécuter les mêmes tests sur plusieurs navigateurs sans modification, ce qui garantit une couverture de test complète et cohérente.</li>
+    </ol>
+</details>
+
+<details>
+    <summary>Décrire la relation entre Browser, Browser Context et Page</summary><br/>
+    <ul>
+        <li>Browser : Représente une instance complète du navigateur (Chromium, Firefox, WebKit). C’est le conteneur principal, lancé une fois par session de test.</li>
+        <li>Browser Context : C’est un environnement isolé à l’intérieur du navigateur. Plusieurs contextes peuvent coexister dans un même navigateur, chacun avec ses propres cookies, stockage local, etc. — idéal pour simuler des utilisateurs distincts.</li>
+        <li>Page : C’est une fenêtre ou onglet dans un contexte. Chaque page représente une instance de navigation (ex. : une page web ouverte). Plusieurs pages peuvent exister dans un même contexte, mais elles partagent son état (comme les cookies).</li>
+    </ul>
+    <p>En résumé : Browser → Browser Context → Page = hiérarchie d’isolation et de gestion des sessions.</p>
+</details>
+
+<details>
+    <summary>Expliquer l’utilité de deux fonctionnalités clés de Playwright :</summary><br/>
+    <ol>
+        <li><strong>Outil Codegen (Générateur de code)</strong>:<br/>Il permet d’enregistrer vos actions dans le navigateur (cliquer, saisir, naviguer…) et de générer automatiquement le code Playwright correspondant en JavaScript, TypeScript, Python ou Java. Idéal pour démarrer rapidement des tests sans écrire manuellement chaque étape.</li>
+        <li><strong>Interception réseau (Network Interception)</strong>:<br/>
+        Permet d’intercepter, modifier ou bloquer les requêtes réseau (XHR, fetch, chargement de ressources…). Utile pour simuler des erreurs, tester des réponses spécifiques, ou éviter de charger des ressources externes inutiles pendant les tests.
+        </li>
+    </ol>
+    <p>Ces outils accélèrent le développement et améliorent la robustesse des tests automatisés.</p>
+</details>
+
+<details>
+    <summary>Expliquer une fonctionnalité clé de Playwright pour déboguer les tests défaillants</summary><br/>
+    <p><strong>Tracing (Traçage)</strong><br/>Playwright peut enregistrer une trace complète de l'exécution du test, incluant les captures d'écran, les vidéos, les logs réseau, et les événements DOM. Cette trace peut être rejouée ultérieurement dans la visionneuse Playwright Trace Viewer, permettant de voir exactement ce qui s'est passé à chaque étape et d'identifier rapidement la cause de l'échec.</p>
+    <p>Autres fonctionnalités utiles :</p>
+    <ul>
+        <li>Captures d'écran automatiques : Prises à chaque étape ou en cas d'erreur</li>
+        <li>Vidéos : Enregistrement complet de l'exécution du test</li>
+        <li>Logs détaillés : Messages de débogage et événements du navigateur</li>
+    </ul>
+    <p>Ces outils transforment le débogage en processus transparent et efficace.</p>
+</details>
+
   
-## 🌐API
+## 🌐 API
 
 <details>
     <summary>Qu'est-ce qu'une API ?</summary><br/>
@@ -654,7 +765,9 @@ Questions et réponses pour entretien
     <p>Postman, Swagger</p>
 </details>
 
-## 📒Autres
+## 🧠 Exercices examen (Logique - Observation - Rigueur)
+
+## 📒 Autres
 
 <details>
     <summary>En informatique, que signifie 'comprendre le métier' ? Quelle attitude adopter en tant que QA ?</summary><br/>
