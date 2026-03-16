@@ -383,6 +383,19 @@ Questions et réponses pour entretien
 
 ## 💻 Automatisation
 
+<!-- <details>
+    <summary>Hello</summary><br/>
+    <p>World !</p>
+</details> -->
+
+<!-- <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul> -->
+
 <details>
     <summary>Pourquoi automatiser les tests ?</summary><br/>
     <ul>
@@ -437,11 +450,17 @@ Questions et réponses pour entretien
 </details>
 
 <details>
+    <summary>Qu'est-ce que le Page Object Model (POM) ?</summary><br/>
+    <p>Pour minimiser l'impact des changements, adoptez le Page Object Model (POM) afin de centraliser les sélecteurs et les actions, ce qui facilite la maintenance des scripts.</p>
+</details>    
+
+<details>
     <summary>Différence entre Selenium / Cypress / Playwright ?</summary><br/>
     <div class="ih-TJeJGAB7RWy43i3OeTw==">
     <div class="c+qhpcvP6H3VCSU9BgHRlQ=="><table class="zxqV+AyRUca+MLhV37xZ3A=="><thead class="vws+0UuF+kO6CYMvFHvtZQ=="><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><th class="Twce1OmS+ZcG-oo8+adRMg==">Critère</th><th class="Twce1OmS+ZcG-oo8+adRMg==">Selenium</th><th class="Twce1OmS+ZcG-oo8+adRMg==">Cypress</th><th class="Twce1OmS+ZcG-oo8+adRMg==">Playwright</th></tr></thead><tbody class="o4qKFCTY3cX9YjCR2ocmKA=="><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Année de création</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">2004</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">2015</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">2020</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Langages supportés</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Java, Python, C#, JavaScript, Ruby, etc.</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">JavaScript/TypeScript uniquement</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">JavaScript, Python, Java, C#</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Navigateurs</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Chrome, Firefox, Safari, Edge, IE</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Chrome, Firefox, Edge (limité)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Chrome, Firefox, Safari, Edge</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Architecture</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">WebDriver (hors navigateur)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Exécution dans le navigateur</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Protocole DevTools (hors navigateur)</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Vitesse</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Moyenne</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Rapide</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Très rapide</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Installation</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Complexe (drivers requis)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Simple (npm)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Simple (npm, auto-installation)</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Tests parallèles</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Oui (avec configuration)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Payant (Cypress Cloud)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Natif et gratuit</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Multi-onglets/fenêtre</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Oui</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Non</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Oui</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Attente automatique</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Non (explicite requise)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Oui</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Oui</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Débogage</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Difficile</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Excellent (time-travel)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Excellent (traces, vidéos)</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>API testing</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Non natif</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Oui</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Oui</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Mobile</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Oui (avec Appium)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Non</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Oui (émulation)</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Communauté</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Très large (mature)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Grande et active</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Croissante rapidement</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Courbe d'apprentissage</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Élevée</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Moyenne</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Moyenne</td></tr></tbody></table></div>
     <p><strong>Recommandation</strong> : Playwright pour les nouveaux projets (moderne, complet), Cypress pour la simplicité JavaScript, Selenium pour les projets legacy ou multi-langages établis.</p></div>
 </details>
+
 
 ### 🔸Appium
 
@@ -676,6 +695,186 @@ Questions et réponses pour entretien
     </ul>
 </details>
 
+<details>
+    <summary>On vous demande d’automatiser une fonctionnalité qui n’est pas encore entièrement développée. Comment gérez-vous cela ?</summary><br/>
+    <p>Utilisez des stubs ou des mocks pour simuler les comportements manquants.</p>
+    <pre>
+        cy.intercept('POST', '/api/login', { statusCode: 200, body: { token: 'fake-token' } }).as('login');
+        cy.visit('/login');
+        cy.get('#username').type('test');
+        cy.get('#password').type('pass');
+        cy.get('button').click();
+        cy.wait('@login');
+    </pre>
+</details>
+
+<details>
+    <summary>Si un test échoue, quelle sera votre prochaine étape ?</summary><br/>
+    <p>Etapes: Vérifiez les logs, utilisez <code>cy.pause()</code>, ou <code>cy.screenshot()</code> pour déboguer.</p>
+</details> 
+
+<details>
+    <summary>Si l’application subit de légères modifications, quelle serait votre approche pour modifier les scripts d’automatisation ?</summary><br/>
+    <pre>
+        // pageObjects/LoginPage.js
+        class LoginPage {
+            visit() { 
+                cy.visit('/login'); 
+            }    
+        }
+        enterUsername(username) { 
+            cy.get('[data-testid="username"]').type(username); 
+        }
+    </pre>
+</details>
+
+<details>
+    <summary>Comment automatiseriez-vous la fonctionnalité de connexion sur un site web ?</summary><br/>
+    <pre>
+        cy.get('[data-testid="username"]').type('user123');
+        cy.get('[data-testid="password"]').type('pass456');
+        cy.get('[data-testid="login-btn"]').click();
+        cy.url().should('include', '/dashboard');
+    </pre>
+</details>
+
+<details>
+    <summary>Comment automatiseriez-vous un scénario où vous devez vérifier si un e-mail est envoyé après l’inscription d’un utilisateur ?</summary><br/>
+    <p><strong>Outil externe</strong> : Utilisez un service comme Mailtrap ou Cypress Mailhog.</p>
+    <pre>
+        cy.request('GET', 'https://mailtrap.io/api/messages').then((response) => {
+            expect(response.body.messages.to).to.include('user@example.com');
+        });
+    </pre>
+</details>
+
+<details>
+    <summary>Si un scénario prend beaucoup de temps à s’exécuter, préféreriez-vous TestNG manuel ou l’automatisation ?</summary><br/>
+    <p><strong>Scénario lent</strong> → Automatisation ou manuel ?</p>
+    <p>Choix : Automatisation avec optimisation (attentes intelligentes, parallelisation).</p>
+    <pre>
+        cy.get('#loading-spinner', { timeout: 10000 }).should('not.exist');
+    </pre>
+</details>
+
+<details>
+    <summary>Comment automatiseriez-vous un scénario où vous devez valider le contenu d’un fichier téléchargé après avoir cliqué sur un bouton sur une page web ?</summary><br/>
+    <p><strong>Outil</strong> : Utilisez <code>cypress-downloadfile</code> ou <code>cy.readFile()</code>.</p>
+    <pre>
+        cy.get('#download-btn').click();
+        cy.readFile('cypress/downloads/report.csv').should('contain', 'data');
+    </pre>
+</details>
+
+<details>
+    <summary>Comment automatiseriez-vous un scénario où vous devez vérifier une couleur, une police et la position d’un élément sur une page web ?</summary><br/>
+    <pre>
+        cy.get('#header').should('have.css', 'color', 'rgb(255, 0, 0)');
+        cy.get('#text').should('have.css', 'font-family', 'Arial');
+        cy.get('#element').should('be.visible').and('have.css', 'position', 'absolute');
+    </pre>
+</details>
+
+<details>
+    <summary>Comment gérez-vous les pop-ups ou les boîtes d’alerte dans votre script d’automatisation ?</summary><br/>
+     <pre>
+        cy.on('window:alert', (text) => {
+            expect(text).to.contains('Success!');
+        });
+        cy.get('#trigger-alert').click();
+    </pre>
+</details>
+
+<details>
+    <summary>Comment automatiseriez-vous un scénario où vous devez vérifier si un utilisateur peut faire défiler une page jusqu’à la section de pied de page ?</summary><br/>
+    <pre>
+        cy.get('footer').scrollIntoView().should('be.visible');
+    </pre>
+</details>
+
+<details>
+    <summary>On vous a demandé d’automatiser une application héritée. Quelle est votre approche ?</summary><br/>
+    <p><strong>Approche</strong> : Commencez par les tests critiques, utilisez des selectors stables, et documentez.</p>
+    <pre>
+        // Exemple : Tester le flux de paiement critique
+        cy.get('#checkout-btn').click();
+        cy.url().should('include', '/payment');
+    </pre>
+</details>
+
+<details>
+    <summary>Un script que vous avez écrit fonctionnait bien hier mais échoue aujourd’hui. Comment dépannez-vous cela ?</summary><br/>
+    <p><strong>Dépannage</strong> : Vérifiez les changements dans l’UI, les timeouts, ou les dépendances.</p>
+    <pre>cy.get('#new-element', { timeout: 15000 }).should('be.visible'); // Augmenter le timeout</pre>
+</details>
+
+<details>
+    <summary>Vos scripts d’automatisation s’exécutent lentement. Comment pouvez-vous améliorer la vitesse ?</summary><br/>
+    <p><strong>Optimisations</strong> : Évitez les <code>cy.wait()</code> fixes, utilisez <code>cy.request()</code> pour bypasser l'UI, et activez la parallélisation.</p>
+    <p>✅ Attente dynamique:</p>
+    <pre>
+        cy.get('#dashboard', { timeout: 10000 }).should('be.visible');
+    </pre>
+    <p>✅ Bypasser l'UI pour la connexion (plus rapide) :</p>
+    <pre>
+        // Utiliser cy.request() au lieu de passer par le formulaire
+        cy.request('POST', '/api/login', {
+            username: 'user123',
+            password: 'pass456'
+        }).then((response) => {
+            window.localStorage.setItem('token', response.body.token);
+        });
+        cy.visit('/dashboard');
+    </pre>
+    <p>✅ Parallélisation avec Cypress Cloud :</p>
+    <pre>
+        # Lancer les tests en parallèle
+        cypress run --record --parallel --key <your-key>
+    </pre>
+    <p>✅ Utiliser des fixtures pour éviter les appels API répétitifs :</p>
+    <pre>
+        cy.fixture('userData').then((user) => {
+            cy.get('#username').type(user.name);
+            cy.get('#password').type(user.password);
+        });
+    </pre>
+</details>
+
+<details>
+    <summary>Votre script d’automatisation échoue en raison d’un changement dans l’application. Comment gérez-vous cela ?</summary><br/>
+    <p><strong>Approche</strong> : Identifiez le changement (UI, API, données), mettez à jour les sélecteurs ou les intercepteurs.</p>
+    <p>✅ Mettre à jour un sélecteur obsolète :</p>
+    <pre>
+        // ❌ Ancien sélecteur fragile
+        cy.get('.btn-old-class').click();
+        // ✅ Nouveau sélecteur robuste avec data-testid
+        cy.get('[data-testid="submit-btn"]').click();
+    </pre>
+    <p>✅ Adapter un intercepteur suite à un changement d'API :</p>
+    <pre>
+        // ❌ Ancienne route
+        cy.intercept('POST', '/api/v1/login', { statusCode: 200 }).as('login');
+        // ✅ Nouvelle route après changement
+        cy.intercept('POST', '/api/v2/login', {
+        statusCode: 200,
+        body: { token: 'new-token' }
+        }).as('login');
+        cy.wait('@login').its('response.statusCode').should('eq', 200);
+    </pre>
+    <p>✅ Utiliser des variables centralisées pour faciliter les mises à jour :</p>
+    <pre>
+        // cypress/support/constants.js
+        export const ROUTES = {
+        LOGIN: '/api/v2/login',
+        DASHBOARD: '/dashboard'
+        };
+        // Dans le test
+        import { ROUTES } from '../support/constants';
+        cy.intercept('POST', ROUTES.LOGIN).as('login');
+        cy.visit(ROUTES.DASHBOARD);
+    </pre>
+</details>
+
 ### 🔸Playwright
 
 <details>
@@ -718,6 +917,139 @@ Questions et réponses pour entretien
     </ul>
     <p>Ces outils transforment le débogage en processus transparent et efficace.</p>
 </details>
+
+<details>
+    <summary>On vous demande d’automatiser une fonctionnalité qui n’est pas encore entièrement développée. Comment gérez-vous cela ?</summary><br/>
+    <p>World !</p>
+</details> 
+
+<details>
+    <summary>Si un test échoue, quelle sera votre prochaine étape ?</summary><br/>
+    <p>World !</p>
+</details> 
+
+<details>
+    <summary>Si l’application subit de légères modifications, quelle serait votre approche pour modifier les scripts d’automatisation ?</summary><br/>
+    <p>World !</p>
+</details> 
+
+<details>
+    <summary>Comment automatiseriez-vous la fonctionnalité de connexion sur un site web ?</summary><br/>
+    <p>World !</p>
+</details> 
+
+<details>
+    <summary>Comment automatiseriez-vous un scénario où vous devez vérifier si un e-mail est envoyé après l’inscription d’un utilisateur ?</summary><br/>
+    <p>World !</p>
+</details> 
+
+<details>
+    <summary>Si un scénario prend beaucoup de temps à s’exécuter, préféreriez-vous TestNG manuel ou l’automatisation ?</summary><br/>
+    <p>World !</p>
+</details> 
+
+<details>
+    <summary>Comment automatiseriez-vous un scénario où vous devez valider le contenu d’un fichier téléchargé après avoir cliqué sur un bouton sur une page web ?</summary><br/>
+    <p>World !</p>
+</details> 
+
+<details>
+    <summary>Comment automatiseriez-vous un scénario où vous devez vérifier une couleur, une police et la position d’un élément sur une page web ?</summary><br/>
+    <p>World !</p>
+</details> 
+
+<details>
+    <summary>Comment gérez-vous les pop-ups ou les boîtes d’alerte dans votre script d’automatisation ?</summary><br/>
+    <p>World !</p>
+</details> 
+
+<details>
+    <summary>Comment automatiseriez-vous un scénario où vous devez vérifier si un utilisateur peut faire défiler une page jusqu’à la section de pied de page ?</summary><br/>
+    <p>World !</p>
+</details> 
+
+<details>
+    <summary>On vous a demandé d’automatiser une application héritée. Quelle est votre approche ?</summary><br/>
+    <p>World !</p>
+</details> 
+
+<details>
+    <summary>Un script que vous avez écrit fonctionnait bien hier mais échoue aujourd’hui. Comment dépannez-vous cela ?</summary><br/>
+    <p>World !</p>
+</details> 
+
+<details>
+    <summary>Vos scripts d’automatisation s’exécutent lentement. Comment pouvez-vous améliorer la vitesse ?</summary><br/>
+    <p><strong>Stratégies</strong> : Utilisez des waitFor intelligents, évitez les attentes fixes, et privilégiez les appels API pour les états critiques.</p>
+    <p>✅ Attente dynamique (pas de sleep) :</p>
+    <pre>
+        // ❌ À éviter
+        await page.waitForTimeout(5000);
+        // ✅ Attendre un élément spécifique
+        await page.waitForSelector('#dashboard', { timeout: 10000 });
+    </pre>
+    <p>✅ Bypasser l’UI via l’API (plus rapide) :</p>
+    <pre>
+        // Authentification via API
+        const response = await page.request.post('/api/login', {
+        data: { username: 'user123', password: 'pass456' }
+        });
+        const token = (await response.json()).token;
+        // Injecter le token dans le navigateur
+        await page.addInitScript(({ token }) => {
+        window.localStorage.setItem('token', token);
+        }, { token });
+        await page.goto('/dashboard');
+    </pre>
+    <p>✅ Utiliser des fixtures (données statiques) :</p>
+    <pre>
+        // test-data/user.json
+        {
+        "username": "testuser",
+        "password": "testpass"
+        }
+        // Dans le test
+        const userData = JSON.parse(await fs.promises.readFile('./test-data/user.json', 'utf-8'));
+        await page.getByTestId('username').fill(userData.username);
+        await page.getByTestId('password').fill(userData.password);
+    </pre>
+    <p>✅ Parallélisation avec Playwright Test :</p>
+    <pre>
+    # Lancer les tests en parallèle
+    npx playwright test --workers=4
+</pre>
+</details> 
+
+<details>
+    <summary>Votre script d’automatisation échoue en raison d’un changement dans l’application. Comment gérez-vous cela ?</summary><br/>
+    <p><strong>Approche</strong> : Identifier le changement (UI, API, structure), mettre à jour les sélecteurs ou les mocks.</p>
+    <p>✅ Mettre à jour un sélecteur obsolète :</p>
+    <pre>
+        // ❌ Ancien sélecteur
+        await page.click('.old-button');
+        // ✅ Nouveau sélecteur avec data-testid
+        await page.click('[data-testid="submit-btn"]');
+    </pre>
+    <p>✅ Adapter un mock API suite à un changement :</p>
+    <pre>
+        // ❌ Ancienne route
+        await page.route('/api/v1/login', route => route.fulfill({ status: 200 }));
+        // ✅ Nouvelle route
+        await page.route('/api/v2/login', route => route.fulfill({
+        status: 200,
+        body: JSON.stringify({ token: 'new-token' })
+        }));
+        await page.goto('/login');
+        await page.click('button');
+        await page.waitForResponse('/api/v2/login');
+    </pre>
+    <p>✅ Utiliser le mode “debug” pour identifier les changements :</p>
+    <pre>
+        npx playwright test --debug
+        # Ou dans le code :
+        await page.pause(); // Pause interactive pour inspecter l’UI
+    </pre>
+</details> 
 
   
 ## 🌐 API
