@@ -452,7 +452,7 @@ Questions et réponses pour entretien
 <details>
     <summary>Qu'est-ce que le Page Object Model (POM) ?</summary><br/>
     <p>Pour minimiser l'impact des changements, adoptez le Page Object Model (POM) afin de centraliser les sélecteurs et les actions, ce qui facilite la maintenance des scripts.</p>
-</details>    
+</details>
 
 <details>
     <summary>Différence entre Selenium / Cypress / Playwright ?</summary><br/>
@@ -460,7 +460,6 @@ Questions et réponses pour entretien
     <div class="c+qhpcvP6H3VCSU9BgHRlQ=="><table class="zxqV+AyRUca+MLhV37xZ3A=="><thead class="vws+0UuF+kO6CYMvFHvtZQ=="><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><th class="Twce1OmS+ZcG-oo8+adRMg==">Critère</th><th class="Twce1OmS+ZcG-oo8+adRMg==">Selenium</th><th class="Twce1OmS+ZcG-oo8+adRMg==">Cypress</th><th class="Twce1OmS+ZcG-oo8+adRMg==">Playwright</th></tr></thead><tbody class="o4qKFCTY3cX9YjCR2ocmKA=="><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Année de création</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">2004</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">2015</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">2020</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Langages supportés</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Java, Python, C#, JavaScript, Ruby, etc.</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">JavaScript/TypeScript uniquement</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">JavaScript, Python, Java, C#</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Navigateurs</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Chrome, Firefox, Safari, Edge, IE</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Chrome, Firefox, Edge (limité)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Chrome, Firefox, Safari, Edge</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Architecture</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">WebDriver (hors navigateur)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Exécution dans le navigateur</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Protocole DevTools (hors navigateur)</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Vitesse</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Moyenne</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Rapide</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Très rapide</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Installation</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Complexe (drivers requis)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Simple (npm)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Simple (npm, auto-installation)</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Tests parallèles</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Oui (avec configuration)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Payant (Cypress Cloud)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Natif et gratuit</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Multi-onglets/fenêtre</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Oui</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Non</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Oui</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Attente automatique</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Non (explicite requise)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Oui</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Oui</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Débogage</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Difficile</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Excellent (time-travel)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Excellent (traces, vidéos)</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>API testing</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Non natif</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Oui</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Oui</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Mobile</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Oui (avec Appium)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Non</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Oui (émulation)</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Communauté</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Très large (mature)</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Grande et active</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Croissante rapidement</td></tr><tr class="_2ebVTgiBfkHr-I+WBkJGUw=="><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Critère"><strong>Courbe d'apprentissage</strong></td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Selenium">Élevée</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Cypress">Moyenne</td><td class="Lj1YMIu6HckHEepSU13LHg==" data-label="Playwright">Moyenne</td></tr></tbody></table></div>
     <p><strong>Recommandation</strong> : Playwright pour les nouveaux projets (moderne, complet), Cypress pour la simplicité JavaScript, Selenium pour les projets legacy ou multi-langages établis.</p></div>
 </details>
-
 
 ### 🔸Appium
 
@@ -519,6 +518,7 @@ Questions et réponses pour entretien
 </details>
 
 ### 🔸Cucumber
+
 <details>
     <summary>Qu'est-ce que Cucumber ?</summary><br/>
     <p>Cucumber est un framework open source conçu pour le Behavior-Driven Development (BDD), une méthodologie de développement logiciel qui encourage la collaboration entre développeurs, testeurs, chefs de produit et parties prenantes métier.  Il permet d'écrire des spécifications exécutables en langage naturel, compréhensibles par tous, afin de définir le comportement attendu d'une application.</p>
@@ -562,9 +562,10 @@ Questions et réponses pour entretien
         <li><strong>Jenkins / GitLab CI</strong> : Pour l’exécution automatisée dans les pipelines.</li>
         <li><strong>Allure / Cucumber Reports</strong> : Pour des rapports visuels riches et interactifs.</li>
     </ul>
-</details>   
+</details>
 
 ### 🔸Cypress
+
 <details>
     <summary>Qu'est-ce que Cypress ?</summary><br/>
     <p>Cypress est un outil de test de bout en bout (End-to-End) basé sur JavaScript. Il est conçu pour les applications web modernes et permet de tester tout ce qui s'exécute dans un navigateur. Il est rapide, facile à utiliser et ne nécessite pas de configuration complexe comme Selenium.</p>
@@ -578,7 +579,7 @@ Questions et réponses pour entretien
         <li>Attente automatique (Automatic Waiting) : Plus besoin d'ajouter des pauses ou des attentes explicites ; Cypress attend que les éléments apparaissent.</li>
         <li>Capture d'écran et Vidéos : Capture automatique lors d'un échec.</li>
     </ul>
-</details>    
+</details>
 
 <details>
     <summary>Quelles sont les limitations de Cypress ?</summary><br/>
@@ -592,7 +593,7 @@ Questions et réponses pour entretien
 <details>
     <summary>Qu'est-ce que le "Selector Playground" ?</summary><br/>
     <p>C'est un outil interactif intégré à l'interface de Cypress qui permet de générer des sélecteurs uniques pour les éléments de votre page. Il aide à trouver le sélecteur le plus robuste (en privilégiant souvent les attributs <u>data-cy</u> ou <u>data-test</u>).</p>
-</details>    
+</details>
 
 <details>
     <summary>Quelle est la différence entre cy.find() et cy.get() ?</summary><br/>
@@ -711,7 +712,7 @@ Questions et réponses pour entretien
 <details>
     <summary>Si un test échoue, quelle sera votre prochaine étape ?</summary><br/>
     <p>Etapes: Vérifiez les logs, utilisez <code>cy.pause()</code>, ou <code>cy.screenshot()</code> pour déboguer.</p>
-</details> 
+</details>
 
 <details>
     <summary>Si l’application subit de légères modifications, quelle serait votre approche pour modifier les scripts d’automatisation ?</summary><br/>
@@ -878,6 +879,16 @@ Questions et réponses pour entretien
 ### 🔸Playwright
 
 <details>
+    <summary>Citez quelques bonnes pratiques globales Playwright</summary>
+    <ul>
+        <li>Utilisez toujours le <strong>POM (Page Object Model)</strong> pour la maintenabilité</li>
+        <li>Privilégiez <span>getByTestId()</code></span>, <span>getByRole()</code></span>, <span>getByLabel()</code></span> aux sélecteurs CSS fragiles</li>
+        <li>Activez les <strong>traces</strong> et <strong>screenshots</strong> automatiques en cas d'échec</li>
+        <li>Utilisez <span>storageState</code></span> pour réutiliser l'authentification entre les tests</li>
+    </ul>
+</details>
+
+<details>
     <summary>Expliquer deux avantages clés de l'utilisation de Playwright</summary><br/>
     <ol>
         <li>Attentes automatiques (auto-waits) : Playwright attend automatiquement que les éléments soient prêts avant d’interagir avec eux (cliquer, saisir, etc.), ce qui réduit considérablement les échecs aléatoires des tests et améliore leur fiabilité.</li>
@@ -920,63 +931,278 @@ Questions et réponses pour entretien
 
 <details>
     <summary>On vous demande d’automatiser une fonctionnalité qui n’est pas encore entièrement développée. Comment gérez-vous cela ?</summary><br/>
-    <p>World !</p>
-</details> 
+    <p><strong>Approche</strong> : Utilisez page.route() pour mocker les endpoints manquants.</p>
+    <pre>
+        import { test, expect } from '@playwright/test';
+
+            test('Fonctionnalité non développée - Mock API', async ({ page }) => {
+            // Simuler une réponse API non encore développée
+            await page.route('/api/new-feature', route => route.fulfill({
+                status: 200,
+                body: JSON.stringify({ message: 'Feature simulée' })
+            }));
+
+            await page.goto('/new-feature');
+            await expect(page.getByText('Feature simulée')).toBeVisible();
+        });
+    </pre>
+
+</details>
 
 <details>
     <summary>Si un test échoue, quelle sera votre prochaine étape ?</summary><br/>
-    <p>World !</p>
-</details> 
+    <p><strong>Approche</strong> : Utilisez les screenshots, vidéos et traces pour diagnostiquer.</p>
+    <pre>
+        test('Débogage en cas d\'échec', async ({ page }) => {
+            await page.goto('/login');
+            // Screenshot manuel en cas d'erreur
+            try {
+                await page.click('[data-testid="submit-btn"]');
+                await expect(page).toHaveURL('/dashboard');
+            } catch (error) {
+                await page.screenshot({ path: 'screenshots/failure.png', fullPage: true });
+                throw error;
+            }
+        });
+    </pre>
+    <p>✅ Configuration automatique des traces dans playwright.config.ts</p>
+    <p>✅ Visualiser la trace </p>
+    <code>npx playwright show-trace trace.zip</code>
+</details>
 
 <details>
     <summary>Si l’application subit de légères modifications, quelle serait votre approche pour modifier les scripts d’automatisation ?</summary><br/>
-    <p>World !</p>
-</details> 
+    <p><strong>Approche</strong> : Utilisez le Page Object Model (POM) pour centraliser les sélecteurs.</p>
+</details>
 
 <details>
     <summary>Comment automatiseriez-vous la fonctionnalité de connexion sur un site web ?</summary><br/>
-    <p>World !</p>
-</details> 
+    <pre>
+        test('Login utilisateur', async ({ page }) => {
+            await page.goto('/login');
+            await page.getByTestId('username').fill('user123');
+            await page.getByTestId('password').fill('pass456');
+            await page.getByTestId('login-btn').click();
+            // Vérifier la redirection
+            await expect(page).toHaveURL('/dashboard');
+            // Vérifier la présence d'un élément du dashboard
+            await expect(page.getByTestId('welcome-message')).toBeVisible();
+        });
+    </pre>
+    <p>✅ Réutiliser l'authentification via storageState :</p>
+    <pre>
+            // auth.setup.ts
+            import { test as setup } from '@playwright/test';
+            setup('Authenticate', async ({ page }) => {
+                await page.goto('/login');
+                await page.getByTestId('username').fill('user123');
+                await page.getByTestId('password').fill('pass456');
+                await page.getByTestId('login-btn').click();
+                await page.context().storageState({ path: 'auth.json' });
+            });
+            // playwright.config.ts
+            export default {
+            projects: [
+                { name: 'setup', testMatch: /auth.setup.ts/ },
+                {
+                    name: 'tests',
+                    use: { storageState: 'auth.json' },
+                    dependencies: ['setup']
+                }
+            ]
+        };
+    </pre>
+</details>
 
 <details>
     <summary>Comment automatiseriez-vous un scénario où vous devez vérifier si un e-mail est envoyé après l’inscription d’un utilisateur ?</summary><br/>
-    <p>World !</p>
-</details> 
+    <p><strong>Approche</strong> : Utilisez un service comme Mailhog ou Mailtrap via API.</p>
+    <pre>
+        test('Vérifier e-mail après inscription', async ({ page, request }) => {
+            // Inscription de l'utilisateur
+            await page.goto('/register');
+            await page.getByTestId('email').fill('testuser@example.com');
+            await page.getByTestId('password').fill('pass456');
+            await page.getByTestId('register-btn').click();
+            // Vérifier via l'API Mailhog
+            const emailResponse = await request.get('http://localhost:8025/api/v2/messages');
+            const emails = await emailResponse.json();
+            expect(emails.items.Content.Headers.To).toContain('testuser@example.com');
+            expect(emails.items.Content.Headers.Subject).toContain('Bienvenue');
+        });
+    </pre>
+</details>
 
 <details>
     <summary>Si un scénario prend beaucoup de temps à s’exécuter, préféreriez-vous TestNG manuel ou l’automatisation ?</summary><br/>
-    <p>World !</p>
-</details> 
+    <p>Choix : Automatisation avec des attentes intelligentes et retry.</p>
+    <pre>
+        test('Scénario long avec attente intelligente', async ({ page }) => {
+            await page.goto('/reports');
+            // Attendre la disparition du spinner
+            await page.waitForSelector('#loading-spinner', { state: 'hidden', timeout: 30000 });
+            // Attendre la réponse API
+            await page.waitForResponse(
+                response => response.url().includes('/api/reports') && response.status() === 200
+            );
+            await expect(page.getByTestId('report-table')).toBeVisible();
+        });
+    </pre>
+    <p>✅ Configuration du retry dans playwright.config.ts :</p>
+    <pre>
+        export default {
+            retries: 2, // Relancer automatiquement en cas d'échec
+            timeout: 60000,
+        };
+    </pre>
+</details>
 
 <details>
     <summary>Comment automatiseriez-vous un scénario où vous devez valider le contenu d’un fichier téléchargé après avoir cliqué sur un bouton sur une page web ?</summary><br/>
-    <p>World !</p>
-</details> 
+    <pre>
+        import * as fs from 'fs';
+        import * as path from 'path';
+
+        test('Valider un fichier téléchargé', async ({ page }) => {
+            await page.goto('/reports');
+            // Attendre le téléchargement
+            const [download] = await Promise.all([
+                page.waitForEvent('download'),
+                page.getByTestId('download-btn').click()
+            ]);
+            // Sauvegarder le fichier
+            const filePath = path.join('downloads', download.suggestedFilename());
+            await download.saveAs(filePath);
+            // Lire et valider le contenu
+            const fileContent = fs.readFileSync(filePath, 'utf-8');
+            expect(fileContent).toContain('expected data');
+            expect(download.suggestedFilename()).toBe('report.csv');
+        });
+    </pre>
+
+</details>
 
 <details>
     <summary>Comment automatiseriez-vous un scénario où vous devez vérifier une couleur, une police et la position d’un élément sur une page web ?</summary><br/>
-    <p>World !</p>
-</details> 
+    <pre>
+        test('Vérifier les propriétés CSS d\'un élément', async ({ page }) => {
+            await page.goto('/home');
+            const header = page.locator('#header');
+            // Vérifier la couleur
+            const color = await header.evaluate(el =>
+                window.getComputedStyle(el).color
+            );
+            expect(color).toBe('rgb(255, 0, 0)');
+            // Vérifier la police
+            const fontFamily = await header.evaluate(el =>
+                window.getComputedStyle(el).fontFamily
+            );
+            expect(fontFamily).toContain('Arial');
+            // Vérifier la position
+            const boundingBox = await header.boundingBox();
+            expect(boundingBox?.x).toBeGreaterThan(0);
+            expect(boundingBox?.y).toBeGreaterThan(0);
+        });
+    </pre>
+</details>
 
 <details>
     <summary>Comment gérez-vous les pop-ups ou les boîtes d’alerte dans votre script d’automatisation ?</summary><br/>
-    <p>World !</p>
-</details> 
+    <pre>
+        test('Gérer une alerte native', async ({ page }) => {
+            // Intercepter l'alerte avant le clic
+            page.on('dialog', async dialog => {
+                expect(dialog.message()).toContain('Êtes-vous sûr ?');
+                await dialog.accept(); // ou dialog.dismiss() pour annuler
+            });
+            await page.goto('/settings');
+            await page.getByTestId('delete-btn').click();
+            });
+            // ✅ Gérer une pop-up dans un nouvel onglet
+            test('Gérer une pop-up dans un nouvel onglet', async ({ page, context }) => {
+            const [popup] = await Promise.all([
+                context.waitForEvent('page'),
+                page.getByTestId('open-popup-btn').click()
+            ]);
+            await popup.waitForLoadState();
+            await expect(popup.getByTestId('popup-title')).toBeVisible();
+            await popup.close();
+        });
+    </pre>
+</details>
 
 <details>
     <summary>Comment automatiseriez-vous un scénario où vous devez vérifier si un utilisateur peut faire défiler une page jusqu’à la section de pied de page ?</summary><br/>
-    <p>World !</p>
-</details> 
+    <pre>
+        test('Vérifier le défilement jusqu\'au footer', async ({ page }) => {
+            await page.goto('/home');
+            // Faire défiler jusqu'au footer
+            await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+            // Ou utiliser scrollIntoViewIfNeeded
+            const footer = page.locator('footer');
+            await footer.scrollIntoViewIfNeeded();
+            // Vérifier la visibilité
+            await expect(footer).toBeVisible();
+            // Vérifier la position dans le viewport
+            const isInViewport = await footer.evaluate(el => {
+                const rect = el.getBoundingClientRect();
+                return rect.top < window.innerHeight;
+            });
+            expect(isInViewport).toBeTruthy();
+        });
+    </pre>
+</details>
 
 <details>
     <summary>On vous a demandé d’automatiser une application héritée. Quelle est votre approche ?</summary><br/>
-    <p>World !</p>
-</details> 
+    <p><strong>Approche</strong> : Utilisez des sélecteurs stables, commencez par les flux critiques.</p>
+    <pre>
+        test('Application héritée - Flux de connexion critique', async ({ page }) => {
+            await page.goto('/legacy-app');
+            // Utiliser plusieurs stratégies de sélection
+            await page.locator('input[name="username"]').fill('admin');
+            await page.locator('input[type="password"]').fill('password');
+            // Attendre la navigation après soumission
+            await Promise.all([
+                page.waitForNavigation(),
+                page.locator('input[type="submit"]').click()
+            ]);
+            // Vérifier un élément stable de l'ancienne app
+            await expect(page.locator('#main-menu')).toBeVisible();
+        });
+    </pre>
+</details>
 
 <details>
     <summary>Un script que vous avez écrit fonctionnait bien hier mais échoue aujourd’hui. Comment dépannez-vous cela ?</summary><br/>
-    <p>World !</p>
-</details> 
+    <p><strong>Dépannage</strong> : Vérifiez les changements UI, les timeouts, et utilisez le mode debug.</p>
+    <pre>
+        test('Dépannage d\'un script en échec', async ({ page }) => {
+            await page.goto('/dashboard');
+            // Augmenter le timeout pour un élément lent
+            await expect(page.getByTestId('data-table'))
+                .toBeVisible({ timeout: 15000 });
+            // Vérifier les logs réseau
+            page.on('response', response => {
+                if (response.status() >= 400) {
+                console.error(`Erreur réseau: ${response.url()} - ${response.status()}`);
+                }
+            });
+            // Vérifier les erreurs console
+            page.on('console', msg => {
+                if (msg.type() === 'error') {
+                console.error(`Erreur console: ${msg.text()}`);
+                }
+            });
+        });
+    </pre>
+    <p>✅ Lancer en mode debug :</p>
+    <pre>
+        npx playwright test --debug
+        # Ou avec l'UI mode
+        npx playwright test --ui
+    </pre>
+</details>
 
 <details>
     <summary>Vos scripts d’automatisation s’exécutent lentement. Comment pouvez-vous améliorer la vitesse ?</summary><br/>
@@ -1018,7 +1244,7 @@ Questions et réponses pour entretien
     # Lancer les tests en parallèle
     npx playwright test --workers=4
 </pre>
-</details> 
+</details>
 
 <details>
     <summary>Votre script d’automatisation échoue en raison d’un changement dans l’application. Comment gérez-vous cela ?</summary><br/>
@@ -1049,9 +1275,8 @@ Questions et réponses pour entretien
         # Ou dans le code :
         await page.pause(); // Pause interactive pour inspecter l’UI
     </pre>
-</details> 
+</details>
 
-  
 ## 🌐 API
 
 <details>
@@ -1125,3 +1350,40 @@ Questions et réponses pour entretien
     <li></li>
     <li></li>
 </ul> -->
+
+### ISTQB GenAI Certification Preparation
+
+<details>
+    <summary>1. Stratégies de Prompting (Ingénierie)</summary><br/>
+    <table-block _nghost-ng-c61304436="" class="ng-star-inserted"><div _ngcontent-ng-c61304436="" class="table-block has-export-button new-table-style is-at-scroll-start is-at-scroll-end"><div _ngcontent-ng-c61304436="" not-end-of-paragraph="" class="table-content not-end-of-paragraph" jslog="275421;track:impression,attention" data-hveid="0" decode-data-ved="1" data-ved="0CAAQ3ecQahcKEwiXk-Pbv7GTAxUAAAAAHQAAAAAQUQ"><table data-path-to-node="4"><thead><tr><td><span data-path-to-node="4,0,0,0">Si la question mentionne...</span></td><td><span data-path-to-node="4,0,1,0">La réponse est souvent...</span></td></tr></thead><tbody><tr><td><span data-path-to-node="4,1,0,0">"Décomposer étape par étape"</span></td><td><span data-path-to-node="4,1,1,0"><b data-path-to-node="4,1,1,0" data-index-in-node="0">Chain-of-Thought (CoT)</b></span></td></tr><tr><td><span data-path-to-node="4,2,0,0">"Sortie d'un prompt vers l'entrée d'un autre"</span></td><td><span data-path-to-node="4,2,1,0"><b data-path-to-node="4,2,1,0" data-index-in-node="0">Prompt Chaining</b></span></td></tr><tr><td><span data-path-to-node="4,3,0,0">"IA qui joue un rôle (ex: Expert Testeur)"</span></td><td><span data-path-to-node="4,3,1,0"><b data-path-to-node="4,3,1,0" data-index-in-node="0">Persona Adoption</b></span></td></tr><tr><td><span data-path-to-node="4,4,0,0">"IA qui s'auto-évalue ou critique son plan"</span></td><td><span data-path-to-node="4,4,1,0"><b data-path-to-node="4,4,1,0" data-index-in-node="0">Self-Reflection</b></span></td></tr><tr><td><span data-path-to-node="4,5,0,0">"Contraintes sur ce que l'IA ne doit pas faire"</span></td><td><span data-path-to-node="4,5,1,0"><b data-path-to-node="4,5,1,0" data-index-in-node="0">Negative Prompting</b></span></td></tr></tbody></table></table-block>
+</details>
+
+<details>
+    <summary>2. Métriques & Evaluation</summary><br/>
+    <table data-path-to-node="7"><thead><tr><td><span data-path-to-node="7,0,0,0">Si la question mentionne...</span></td><td><span data-path-to-node="7,0,1,0">La réponse est souvent...</span></td></tr></thead><tbody><tr><td><span data-path-to-node="7,1,0,0">"Similarité de sens / Embeddings / Vecteurs"</span></td><td><span data-path-to-node="7,1,1,0"><b data-path-to-node="7,1,1,0" data-index-in-node="0">BERTScore</b> (ou Cosinus Similarity)</span></td></tr><tr><td><span data-path-to-node="7,2,0,0">"Chevauchement exact de mots / N-grammes"</span></td><td><span data-path-to-node="7,2,1,0"><b data-path-to-node="7,2,1,0" data-index-in-node="0">BLEU</b></span></td></tr><tr><td><span data-path-to-node="7,3,0,0">"Qualité des résumés / Rappel des mots-clés"</span></td><td><span data-path-to-node="7,3,1,0"><b data-path-to-node="7,3,1,0" data-index-in-node="0">ROUGE</b></span></td></tr><tr><td><span data-path-to-node="7,4,0,0">"Synonymes / Morphologie / Racines des mots"</span></td><td><span data-path-to-node="7,4,1,0"><b data-path-to-node="7,4,1,0" data-index-in-node="0">METEOR</b></span></td></tr><tr><td><span data-path-to-node="7,5,0,0">"Qualité et diversité d'images"</span></td><td><span data-path-to-node="7,5,1,0"><b data-path-to-node="7,5,1,0" data-index-in-node="0">FID (Fréchet Inception Distance)</b></span></td></tr><tr><td><span data-path-to-node="7,6,0,0">"Succès sur <span class="math-inline" data-math="k" data-index-in-node="12"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6944em;"></span><span class="mord mathnormal" style="margin-right: 0.0315em;">k</span></span></span></span></span> tentatives de code"</span></td><td><span data-path-to-node="7,6,1,0"><b data-path-to-node="7,6,1,0" data-index-in-node="0">Pass@k</b></span></td></tr></tbody></table>
+</details>
+
+<details>
+    <summary>3. Architecture & Agents</summary><br/>
+    <table data-path-to-node="10"><thead><tr><td><span data-path-to-node="10,0,0,0">Si la question mentionne...</span></td><td><span data-path-to-node="10,0,1,0">La réponse est souvent...</span></td></tr></thead><tbody><tr><td><span data-path-to-node="10,1,0,0">"Accès à des connaissances externes/à jour"</span></td><td><span data-path-to-node="10,1,1,0"><b data-path-to-node="10,1,1,0" data-index-in-node="0">RAG (Retrieval-Augmented Generation)</b></span></td></tr><tr><td><span data-path-to-node="10,2,0,0">"IA qui utilise des API / Navigateur / Python"</span></td><td><span data-path-to-node="10,2,1,0"><b data-path-to-node="10,2,1,0" data-index-in-node="0">Tool Use / Tool Calling</b></span></td></tr><tr><td><span data-path-to-node="10,3,0,0">"IA qui agit seule pour atteindre un but"</span></td><td><span data-path-to-node="10,3,1,0"><b data-path-to-node="10,3,1,0" data-index-in-node="0">Agent Autonome</b></span></td></tr><tr><td><span data-path-to-node="10,4,0,0">"Lien entre une réponse et sa source"</span></td><td><span data-path-to-node="10,4,1,0"><b data-path-to-node="10,4,1,0" data-index-in-node="0">Grounding (Ancrage)</b></span></td></tr><tr><td><span data-path-to-node="10,5,0,0">"Probabilité de prédire le token suivant"</span></td><td><span data-path-to-node="10,5,1,0"><b data-path-to-node="10,5,1,0" data-index-in-node="0">Perplexité</b> (Perplexity)</span></td></tr></tbody></table>
+</details>
+
+<details>
+    <summary>4. Risques, Sécurité & Biais</summary><br/>
+    <table data-path-to-node="13"><thead><tr><td><span data-path-to-node="13,0,0,0">Si la question mentionne...</span></td><td><span data-path-to-node="13,0,1,0">La réponse est souvent...</span></td></tr></thead><tbody><tr><td><span data-path-to-node="13,1,0,0">"L'IA révèle ses instructions système"</span></td><td><span data-path-to-node="13,1,1,0"><b data-path-to-node="13,1,1,0" data-index-in-node="0">Prompt Leakage</b></span></td></tr><tr><td><span data-path-to-node="13,2,0,0">"Attaque via un mail lu par l'IA"</span></td><td><span data-path-to-node="13,2,1,0"><b data-path-to-node="13,2,1,0" data-index-in-node="0">Indirect Prompt Injection</b></span></td></tr><tr><td><span data-path-to-node="13,3,0,0">"Modifier quelques pixels pour tromper l'IA"</span></td><td><span data-path-to-node="13,3,1,0"><b data-path-to-node="13,3,1,0" data-index-in-node="0">Adversarial Attack (Attaque adverse)</b></span></td></tr><tr><td><span data-path-to-node="13,4,0,0">"Données de test qui influencent le modèle"</span></td><td><span data-path-to-node="13,4,1,0"><b data-path-to-node="13,4,1,0" data-index-in-node="0">Data Poisoning (Empoisonnement)</b></span></td></tr><tr><td><span data-path-to-node="13,5,0,0">"L'IA semble trop sûre d'elle (biais humain)"</span></td><td><span data-path-to-node="13,5,1,0"><b data-path-to-node="13,5,1,0" data-index-in-node="0">Over-reliance (Excès de confiance)</b></span></td></tr></tbody></table>
+</details>
+
+<details>
+    <summary>5. Normes & Régulations</summary><br/>
+    <table data-path-to-node="16"><thead><tr><td><span data-path-to-node="16,0,0,0">Si la question mentionne...</span></td><td><span data-path-to-node="16,0,1,0">La réponse est souvent...</span></td></tr></thead><tbody><tr><td><span data-path-to-node="16,1,0,0">"Social Scoring / Manipulation subliminale"</span></td><td><span data-path-to-node="16,1,1,0"><b data-path-to-node="16,1,1,0" data-index-in-node="0">Risque Inacceptable</b> (EU AI Act)</span></td></tr><tr><td><span data-path-to-node="16,2,0,0">"Recrutement / Santé / Justice"</span></td><td><span data-path-to-node="16,2,1,0"><b data-path-to-node="16,2,1,0" data-index-in-node="0">Haut Risque</b> (EU AI Act)</span></td></tr><tr><td><span data-path-to-node="16,3,0,0">"Gouverner, Mapper, Mesurer, Gérer"</span></td><td><span data-path-to-node="16,3,1,0"><b data-path-to-node="16,3,1,0" data-index-in-node="0">NIST AI Risk Management Framework</b></span></td></tr><tr><td><span data-path-to-node="16,4,0,0">"Système de Management de l'IA (SMSIA)"</span></td><td><span data-path-to-node="16,4,1,0"><b data-path-to-node="16,4,1,0" data-index-in-node="0">ISO/IEC 42001</b></span></td></tr><tr><td><span data-path-to-node="16,5,0,0">"Terminologie officielle et définitions"</span></td><td><span data-path-to-node="16,5,1,0"><b data-path-to-node="16,5,1,0" data-index-in-node="0">ISO/IEC 22989</b></span></td></tr></tbody></table>
+</details>
+
+<details>
+    <summary>6. Techniques de Test Spécifiques</summary><br/>
+    <table data-path-to-node="19"><thead><tr><td><span data-path-to-node="19,0,0,0">Si la question mentionne...</span></td><td><span data-path-to-node="19,0,1,0">La réponse est souvent...</span></td></tr></thead><tbody><tr><td><span data-path-to-node="19,1,0,0">"Pas d'Oracle / Relation entre entrées et sorties"</span></td><td><span data-path-to-node="19,1,1,0"><b data-path-to-node="19,1,1,0" data-index-in-node="0">Metamorphic Testing</b></span></td></tr><tr><td><span data-path-to-node="19,2,0,0">"Tester des cas extrêmes ou improbables"</span></td><td><span data-path-to-node="19,2,1,0"><b data-path-to-node="19,2,1,0" data-index-in-node="0">Boundary Value Analysis (appliqué à l'IA)</b></span></td></tr><tr><td><span data-path-to-node="19,3,0,0">"L'IA répare les scripts de test d'UI"</span></td><td><span data-path-to-node="19,3,1,0"><b data-path-to-node="19,3,1,0" data-index-in-node="0">Self-healing (Auto-réparation)</b></span></td></tr></tbody></table>
+</details>
+
+<!-- <details>
+    <summary>Hello</summary><br/>
+    <p>World !</p>
+</details> -->
